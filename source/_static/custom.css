@@ -1,0 +1,59 @@
+/* 左侧menu样式调整 */
+.wy-menu-vertical header,
+.wy-menu-vertical p.caption {
+  color: #e72420;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 1.618em;
+  margin: 12px 0 0;
+  display: block;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 85%;
+  white-space: nowrap;
+}
+.wy-menu-vertical a:active {
+  background-color: #000;
+}
+.wy-nav-side {
+  background: #181818;
+}
+.wy-side-nav-search input[type=text] {
+  border-color: #e72420;
+}
+
+/* 隐藏右侧广告 */
+#readthedocs-ea {
+  display: none;
+  a:visited {
+    color: #2980b9;
+  }
+}
+
+/* 面包屑样式调整 */
+.wy-breadcrumbs-translate {
+  margin-right: 24px;
+  float: right;
+  padding-top: 4px !important;
+}
+
+.wy-breadcrumbs-aside {
+  position: relative;
+  top: -1.618em;
+  right: -3.236em;
+}
+
+@media screen and (max-width: 768px) {
+  .wy-breadcrumbs-translate {
+    margin-right: 8px;
+  }
+  .wy-breadcrumbs-aside {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .wy-breadcrumbs-aside svg {
+    fill: #fff !important;
+    color: #e72420 !important;
+  }
+}

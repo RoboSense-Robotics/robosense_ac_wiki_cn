@@ -1,0 +1,11 @@
+{%- extends "!layout.html" %}
+{% block extrahead %}
+  <link rel="shortcut icon" href="{{ pathto('_static/favicon.ico', 1) }}"/>
+  <!-- {{ super() }}
+  {% if display_github %}
+    {% if github_version %}
+      {% set display_github_url = 'https://github.com/' + github_user + '/' + github_repo + '/blob/' + github_version + root_path_parts + pagename + source_suffix %}
+      <a href="{{ display_github_url }}">View page source</a>
+    {% endif %}
+  {% endif %} -->
+{% endblock %}
