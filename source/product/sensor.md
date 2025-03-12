@@ -7,10 +7,10 @@
 其规格参数如下表所示：  
 <table class="docutils align-default">
     <thead>
-        <tr class="row-odd" align="left">
+        <tr class="row-odd" align="center">
             <th class="head" colspan=4>Active Camera 规格参数表</th>
         </tr>
-        <tr class="row-odd" align="left">
+        <tr class="row-odd" align="center">
             <th class="head" colspan=4>激光部分</th>
         </tr>
     </thead>
@@ -51,7 +51,7 @@
             <td>10Hz</td>
         </tr>
         <tr class="row-even">
-            <th class="head" colspan=4 align="left">RGB 相机部分</th>
+            <th class="head" colspan=4>RGB 相机部分</th>
         </tr>
         <tr class="row-odd">
             <td>快门类型</td>
@@ -72,7 +72,7 @@
             <td>1920*1080</td>
         </tr>
         <tr class="row-even">
-            <th class="head" colspan=4 align="left">IMU</th>
+            <th class="head" colspan=4>IMU</th>
         </tr>
         <tr class="row-odd">
             <td>自由度</td>
@@ -87,7 +87,7 @@
             <td>500Hz（可调）</td>
         </tr>
         <tr class="row-odd">
-            <th class="head" colspan=4 align="left">整机部分</th>
+            <th class="head" colspan=4>整机部分</th>
         </tr>
         <tr class="row-even">
             <td>形式</td>

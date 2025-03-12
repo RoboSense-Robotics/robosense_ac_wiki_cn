@@ -7,7 +7,7 @@
     <tbody>
         <tr class="row-even">
             <td>计算平台</td>
-            <td>CPU: Intel® Core™ i7-11700 @ 2.50GHz × 16 <br> MEM: 48GB </td>
+            <td>Radxa ROCK5B+ </td>
         </tr>
         <tr class="row-odd">
             <td>传感器</td>

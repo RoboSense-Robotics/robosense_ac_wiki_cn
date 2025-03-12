@@ -1,3 +1,3 @@
-**[RoboSense Wiki CN](https://rs-wiki-cn.readthedocs.io/)**  
+**[RoboSense Wiki CN](https://robosense-wiki-cn.readthedocs.io/)**  
 
-**[RoboSense Wiki EN](https://rs-wiki-en.readthedocs.io/)**  
+**[RoboSense Wiki EN](https://robosense-wiki-en.readthedocs.io/)**  
