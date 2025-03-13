@@ -82,7 +82,7 @@
         </tr>
         <tr class="row-even">
             <td>加速度计</td>
-            <td>NV12, RGB24</td>
+            <td>±4g</td>
             <td>数据频率</td>
             <td>500Hz（可调）</td>
         </tr>
