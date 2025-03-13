@@ -6,5 +6,3 @@
 以下视频显示了在草坪作业割草机的实时定位和导航情况，可以看到其准确识别了草坪边界，并且避开了各种障碍物：  
 
 <iframe style="margin-bottom: 24px;" width="100%" height="304" src="https://cdn.robosense.cn/AC_wiki/edge_detection.mp4" frameborder="0" allowfullscreen></iframe>
-
-<!-- ## 扫地机的定位与导航实例   -->

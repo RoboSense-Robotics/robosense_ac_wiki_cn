@@ -41,21 +41,7 @@ Welcome to RoboSense !
     :caption: 应用案例
     :numbered:
 
-    .. cases/case1.md
-
-    cases/case2.md
-
-    .. cases/case3.md
-    .. cases/case4.md
-    .. cases/case5.md
-    .. cases/case6.md
-    .. cases/case7.md
-    .. cases/case8.md
-    .. cases/case9.md
-    .. cases/case10.md
-    .. cases/case11.md
-    .. cases/case12.md
-    .. cases/case13.md
+    cases/house_clean.md
 
 .. toctree::
     :maxdepth: 0
