@@ -11,6 +11,8 @@
 
 ## 标定  
 **相机内参标定**  
+Active Camera 在出厂时已经完成了相机的内参标定，以下提供的方法供开发者在有需要时，重新标定使用。
+
 针孔相机会使图像产生严重的畸变，主要的畸变类型包括径向畸变和切向畸变。本模块根据张正友标定法原理提供相机内参标定工具。开发者可根据工具指引，在不同角度拍摄靶板（可利用本模块中提供的示例图案进行制作）进行相机标定，以提供其他模块所需要的相机内参与畸变系数。 
  
 以下视频提供了标定场内相机内参标定的实时演示效果，主要使用的硬件配置为：  
@@ -34,6 +36,8 @@ demo数据：[AC1 Camera Intrinsics Calibration data](https://cdn.robosense.cn/A
 详细代码：[AC1 Camera Intrinsics Calibration code](http://gitlab.robosense.cn/super_sensor_sdk/ros2_sdk/calibration/-/tree/main)   
 
 **相机到雷达的标定**  
+Active Camera 在出厂时已经完成了相机到雷达的标定，以下提供的方法供开发者在有需要时，重新标定使用。
+
 本模块提供相机-雷达标定工具，复用相机内参标定靶板，对相机与雷达分别进行靶板位姿估计，以提供其他模块所需要相机-雷达外参。标定时请确保靶板处于图像与点云的 FOV 之内，并尽量保持 AC1 稳定，避免因为传感器抖动引入标定误差。  
 
 demo数据：[AC1 Camera to Lidar Calibration data](https://cdn.robosense.cn/AC_wiki/camera_lidar_calib.zip)  

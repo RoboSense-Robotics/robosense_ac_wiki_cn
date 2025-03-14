@@ -1,52 +1,151 @@
 # 硬件生态
 ## 开发板  
-### Radxa ROCK5B+  
 
-Radxa ROCK5B+ 是一款基于 RK3588 芯片组的优雅单板计算机（SBC），由 Radxa 公司设计，主要面向开发者、创客及高性能嵌入式应用场景，其参数规格如下所示：  
+下表列举了一些和 Active Camera 匹配的开发板，罗列了它们支持的 SDK 应用和系统镜像，这些系统镜像包含了编译和运行所支持的 SDK 需要的依赖。
 
 <table class="docutils align-default">
-    <thead>
-        <tr class="row-odd">
-            <th class="head" colspan=4 align="center">Radxa ROCK5B+</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr class="row-even">
-            <td>MCU</td>
-            <td colspan=3>Rockchip RK3588</td>
-        </tr>
-        <tr class="row-odd">
-            <td>CPU</td>
-            <td>8核64位处理器<br>4 个 Cortex-A76@2.4GHz<br>4 个 Cortex-A55@1.8GHz</td>
-            <td>NPU</td>
-            <td>AI 算力 6 TOPS@INT8</td>
-        </tr>
-        <tr class="row-even">
-            <td>RAM</td>
-            <td>16 GB LPDDR5</td>
-            <td>存储</td>
-            <td>板载 eMMC：64 GB</td>
-        </tr>
-        <tr class="row-odd">
-            <td>多媒体</td>
-            <td colspan=3>硬件解码：H.265/H.264/AV1/AVS2 8K@60fps<br>硬件编码：H.265/H.264 8K@30fps</td>
-        </tr>
-        <tr class="row-even">
-            <td>供电</td>
-            <td colspan=3>USB Type-C PD 2.0 供电：支持 9V@2A、12V@2A、15V@2A 和 20V@2A</td>
-        </tr>
-        <tr class="row-odd">
-            <td>尺寸</td>
-            <td colspan=3>100mm x 75 mm</td>
-        </tr>
-        <tr class="row-even">
-            <td>支持的SDK<br>模块</td>
-            <td colspan=3>驱动、采集、监控、标定、定位、SLAM、目标检测与识别、语义分割、点云与视觉融合</td>
-        </tr>
-    </tbody>
-</table> 
+    <tr class="row-even">
+        <th colspan="2">开发板名称</th>
+        <th>通用 X86 架构计算机</th>
+        <th>Radxa ROCK5B+</th>
+        <th>OrangePi 5 Ultra</th>
+        <th>NVIDIA Jetson Orin Nano Super</th>
+        <th>D-Robotics RDK X5</th>
+    </tr>
+    <tr class="row-odd">
+        <td colspan="2">SOC</td>
+        <td>-</td>
+        <td>Rockchip RK3588</td>
+        <td>Rockchip RK3588</td>
+        <td>Jetson Orin Nano 8GB module</td>
+        <td>Sunrise 5</td>
+    </tr>
+    <tr class="row-even">
+        <td colspan="2">CPU</td>
+        <td>Intel® Xeon(R)<br> Gold 6230R CPU @<br> 2.10GHz x 104</td>
+        <td>8 核 64 位处理器<br> 4 个 Cortex-A76@2.4GHz<br> 4 个 Cortex-A55@1.8GHz</td>
+        <td>8 核 64 位处理器<br> 4 个 Cortex-A76@2.4GHz<br> 4 个 Cortex-A55@1.8GHz</td>
+        <td>6 个 Cortex-A78@2.4GHz</td>
+        <td>8 个 Cortex-A55@1.5GHz</td>
+    </tr>
+    <tr class="row-odd">
+        <td colspan="2">内存</td>
+        <td>64 GB</td>
+        <td>16 GB LPDDR5</td>
+        <td>16 GB LPDDR5</td>
+        <td>8 GB LPDDR5</td>
+        <td>8 GB LPDDR4</td>
+    </tr>
+    <tr class="row-even">
+        <td colspan="2">AI 算力</td>
+        <td>NVIDIA A40<br> (299.3 TOPS@INT8)</td>
+        <td>6 TOPS@INT8</td>
+        <td>6 TOPS@INT8</td>
+        <td>67 TOPS@INT8</td>
+        <td>10 TOPS@INT8</td>
+    </tr>
+    <tr>
+        <td rowspan="11">支持的 SDK</td>
+        <td>驱动</td>
+        <td>●</td>
+        <td>●</td>
+        <td>○</td>
+        <td>○</td>
+        <td>○</td>
+    </tr>
+    <tr>
+        <td>采集</td>
+        <td>●</td>
+        <td>●</td>
+        <td>○</td>
+        <td>○</td>
+        <td>○</td>
+    </tr>
+    <tr>
+        <td>监控</td>
+        <td>●</td>
+        <td>●</td>
+        <td>○</td>
+        <td>○</td>
+        <td>○</td>
+    </tr>
+    <tr>
+        <td>标定</td>
+        <td>●</td>
+        <td>●</td>
+        <td>○</td>
+        <td>○</td>
+        <td>○</td>
+    </tr>
+    <tr>
+        <td>点云与视觉融合</td>
+        <td>●</td>
+        <td>●</td>
+        <td>○</td>
+        <td>○</td>
+        <td>○</td>
+    </tr>
+    <tr>
+        <td>定位</td>
+        <td>●</td>
+        <td>●</td>
+        <td>○</td>
+        <td>○</td>
+        <td>○</td>
+    </tr>
+    <tr>
+        <td>slam</td>
+        <td>●</td>
+        <td>●</td>
+        <td>○</td>
+        <td>○</td>
+        <td>○</td>
+    </tr>
+    <tr>
+        <td>3D 高斯溅射</td>
+        <td>●</td>
+        <td>○</td>
+        <td>○</td>
+        <td>○</td>
+        <td>○</td>
+    </tr>
+    <tr>
+        <td>稠密深度估计</td>
+        <td>●</td>
+        <td>●</td>
+        <td>○</td>
+        <td>○</td>
+        <td>○</td>
+    </tr>
+    <tr>
+        <td>目标检测与识别</td>
+        <td>●</td>
+        <td>●</td>
+        <td>○</td>
+        <td>○</td>
+        <td>○</td>
+    </tr>
+    <tr>
+        <td>语义分割</td>
+        <td>●</td>
+        <td>●</td>
+        <td>○</td>
+        <td>○</td>
+        <td>○</td>
+    </tr>
+    <tr>
+        <td colspan="2">SDK 环境容器</td>
+        <td>
+            <a href="https://github.com/RoboSense-Robotics/ros2_ac_sdk_infra/tree/main/tools/cross_compilation">
+                AC1 Cross Compilation
+            </a>
+        </td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+</table>
 
-开发板详细链接：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[radxa rock5+](https://radxa.com/products/rock5/5bp)  
-LLinux Loader 文件：&nbsp;[RK3588_SPL_Loader_v1.15.113](https://cdn.robosense.cn/AC_wiki/rk3588_spl_loader_v1.15.113.bin)  
-Linux 镜像：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[debian12 系统镜像](https://cdn.robosense.cn/AC_wiki/rock-5b-plus_bookworm_kde_b2.output.img.xz)  
-Linux 镜像烧录指南：[radxa develop linux](https://docs.radxa.com/rock5/rock5b/low-level-dev/maskrom/linux)  
+用于管理 Active Camera SDK 的跨平台编译和本地编译环境的 Docker 容器。包含了容器管理、镜像管理以及自动化环境设置等功能。
+针对 ros2 humble 版本，这里分别提供了 linux 平台下的 x86 以及 radxa ARM 版本的交叉编译镜像
