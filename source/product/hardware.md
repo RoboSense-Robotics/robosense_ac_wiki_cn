@@ -137,7 +137,7 @@
         <td colspan="2">SDK 环境容器</td>
         <td>
             <a href="https://github.com/RoboSense-Robotics/ros2_ac_sdk_infra/tree/main/tools/cross_compilation">
-                AC1 Cross Compilation
+                AC X86 tool
             </a>
         </td>
         <td>-</td>
@@ -148,4 +148,3 @@
 </table>
 
 用于管理 Active Camera SDK 的跨平台编译和本地编译环境的 Docker 容器。包含了容器管理、镜像管理以及自动化环境设置等功能。
-针对 ros2 humble 版本，这里分别提供了 linux 平台下的 x86 以及 radxa ARM 版本的交叉编译镜像

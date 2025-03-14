@@ -19,4 +19,4 @@
 
 视频数据：[Foreground](https://cdn.robosense.cn/AC_wiki/target_detection.zip)   
 
-详细代码：[AC1 Pedestrian Detection](http://gitlab.robosense.cn/super_sensor_sdk/ros2_sdk/perception) 
+详细代码：[AC1 Pedestrian Detection](https://github.com/RoboSense-Robotics//perception) 

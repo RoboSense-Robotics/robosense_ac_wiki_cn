@@ -2,12 +2,12 @@
 ## 采集  
 基于 ros2 开发的超级传感器采集软件包，可通过参数配置方式实现不同节点数据采集功能，支持 .db3 和 .mcap 两种数据采集格式。  
 
-详细代码：[AC1 ROS2 collect](http://10.10.0.20/super_sensor_sdk/ros2_sdk/rs_collect)  
+详细代码：[AC1 ros/ros2 collect](https://github.com/RoboSense-Robotics/rs_collect)  
 
 ## 监控  
 监控 ros2 中关心的一些指标，例如: 内存/CPU/IO使用率、消息帧率、消息时间戳与当前系统时间的差值等，监控结果会通过日志和 topic 输出。同时，该软件包还提供了将监控结果数据生成可视化报告的 python 脚本，可以本地生成包含简易统计结果以及折线图的 html 格式报告。  
 
-详细代码：[AC1 ROS2 monitor](http://gitlab.robosense.cn/super_sensor_sdk/ros2_sdk/rs_monitor/-/tree/main)  
+详细代码：[AC1 ros/ros2 monitor](https://github.com/RoboSense-Robotics/rs_monitor)  
 
 ## 标定  
 **相机内参标定**  
@@ -33,7 +33,7 @@ Active Camera 在出厂时已经完成了相机的内参标定，以下提供的
 
 demo数据：[AC1 Camera Intrinsics Calibration data](https://cdn.robosense.cn/AC_wiki/camera_intrinsics_calib.zip)   
 
-详细代码：[AC1 Camera Intrinsics Calibration code](http://gitlab.robosense.cn/super_sensor_sdk/ros2_sdk/calibration/-/tree/main)   
+详细代码：[AC1 Camera Intrinsics Calibration code](https://github.com/RoboSense-Robotics/calibration)   
 
 **相机到雷达的标定**  
 Active Camera 在出厂时已经完成了相机到雷达的标定，以下提供的方法供开发者在有需要时，重新标定使用。
@@ -42,11 +42,11 @@ Active Camera 在出厂时已经完成了相机到雷达的标定，以下提供
 
 demo数据：[AC1 Camera to Lidar Calibration data](https://cdn.robosense.cn/AC_wiki/camera_lidar_calib.zip)  
 
-详细代码：[AC1 Camera to Lidar Calibration code](http://gitlab.robosense.cn/super_sensor_sdk/ros2_sdk/calibration/-/tree/main)   
+详细代码：[AC1 Camera to Lidar Calibration code](https://github.com/RoboSense-Robotics/calibration_extrinsic)   
 
 **AC1 传感器到移动轮式平台外参标定**  
 本模块提供 AC1-移动轮式平台外参标定（角度标定）。本模块需提前录制两段数据：一段沿着直线匀速行驶的数据、一段绕固定轴匀速旋转的数据。开发者按照工具操作指引，启动工程后依次播放这两段数据，完成标定后输出传感器到移动轮式平台的角度外参，平移部分需开发者进行测量后，填入标定文件。  
 
 demo数据：[AC1 to Wheel Platform Calibration data](https://cdn.robosense.cn/AC_wiki/calibration_extrinsic.zip)  
 
-详细代码：[AC1 to Wheel Platform Calibration code](http://gitlab.robosense.cn/super_sensor_sdk/ros2_sdk/calibration/-/tree/main)   
+详细代码：[AC1 to Wheel Platform Calibration code](https://github.com/RoboSense-Robotics/calibration_extrinsic)   

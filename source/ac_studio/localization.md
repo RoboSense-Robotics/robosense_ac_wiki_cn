@@ -25,4 +25,4 @@
 
 视频数据：[Rooftop](https://cdn.robosense.cn/AC_wiki/localization_demo.zip)  
 
-详细代码：[AC1 Locatization](http://gitlab.robosense.cn/super_sensor_sdk/ros2_sdk/localization)  
+详细代码：[AC1 Locatization](https://github.com/RoboSense-Robotics/localization)  

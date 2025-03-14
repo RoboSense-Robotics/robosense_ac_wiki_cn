@@ -24,7 +24,7 @@
 
 视频数据：[Library](https://cdn.robosense.cn/AC_wiki/dense_depth_net_demo.zip)
 
-详细代码：[AC1 Dense Depth](http://gitlab.robosense.cn/super_sensor_sdk/ros2_sdk/perception)
+详细代码：[AC1 Dense Depth](https://github.com/RoboSense-Robotics//perception)
 
 以下视频提供了同样场景离线演示效果，主要使用的硬件配置为：
 
@@ -49,4 +49,4 @@
 
 视频数据：[Library](https://cdn.robosense.cn/AC_wiki/dense_depth_net_demo.zip)    
 
-详细代码：[AC1 Dense Depth](http://gitlab.robosense.cn/super_sensor_sdk/ros2_sdk/perception/-/tree/main/python)   
+详细代码：[AC1 Dense Depth](https://github.com/RoboSense-Robotics//perception)   
