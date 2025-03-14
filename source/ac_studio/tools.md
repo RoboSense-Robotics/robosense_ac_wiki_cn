@@ -50,12 +50,3 @@ demo数据：[AC1 Camera to Lidar Calibration data](https://cdn.robosense.cn/AC_
 demo数据：[AC1 to Wheel Platform Calibration data](https://cdn.robosense.cn/AC_wiki/calibration_extrinsic.zip)  
 
 详细代码：[AC1 to Wheel Platform Calibration code](http://gitlab.robosense.cn/super_sensor_sdk/ros2_sdk/calibration/-/tree/main)   
-
-## 编译环境  
-该工具用于管理 Active Camera SDK 的跨平台编译和本地编译环境的 Docker 容器。包含了容器管理、镜像管理以及自动化环境设置等功能。  
-
-针对 ros2 humble 版本，这里分别提供了 linux 平台下的 x86 以及 radxa ARM 版本的交叉编译镜像。  
-x86 编译镜像：[AC1ros2_humble_compile_ubuntu20_x64.tgz](https://cdn.robosense.cn/AC_wiki/ros2_humble_compile_ubuntu20_x64.tgz)  
-radxa ARM 交叉编译镜像：[AC1debian12_cross_compile_humble.tgz](https://cdn.robosense.cn/AC_wiki/debian12_cross_compile_humble.tgz)  
-
-详细代码：[AC1 Cross Compilation](http://10.10.0.20/super_sensor_sdk/ros2_sdk/sdk_infra/-/tree/main/tools/cross_compilation)  
