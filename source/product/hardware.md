@@ -1,11 +1,11 @@
 # 硬件生态
-## 开发板  
+## 计算平台
 
-下表列举了一些和 Active Camera 匹配的开发板，罗列了它们支持的 SDK 应用和系统镜像，这些系统镜像包含了编译和运行所支持的 SDK 需要的依赖。
+下表列举了一些和 Active Camera 匹配的计算平台，罗列了它们支持的 SDK 应用和系统镜像，这些系统镜像包含了编译和运行所支持的 SDK 需要的依赖。
 
 <table class="docutils align-default">
     <tr class="row-even">
-        <th colspan="2">开发板名称</th>
+        <th colspan="2">计算平台</th>
         <th>通用 X86 架构计算机</th>
         <th>Radxa ROCK5B+</th>
         <th>OrangePi 5 Ultra</th>
@@ -45,7 +45,7 @@
         <td>10 TOPS@INT8</td>
     </tr>
     <tr style="text-align: center; vertical-align: middle;">
-        <td rowspan="11">支持的 SDK</td>
+        <td rowspan="11">支持的 SDK <sup>1</sup> </td>
         <td>驱动</td>
         <td>●</td>
         <td>●</td>
@@ -134,7 +134,7 @@
         <td>○</td>
     </tr>
     <tr style="text-align: center; vertical-align: middle;">
-        <td colspan="2">SDK 环境容器 <sup>1</sup> </td>
+        <td colspan="2">SDK 环境容器 <sup>2</sup> </td>
         <td>
             <a href="https://github.com/RoboSense-Robotics/ros2_ac_sdk_infra/tree/main/tools/cross_compilation">
                 AC X86 tool
@@ -147,4 +147,6 @@
     </tr>
 </table>
 
-[1] 用于管理 Active Camera SDK 的跨平台编译和本地编译环境的 Docker 容器。包含了容器管理、镜像管理以及自动化环境设置等功能。
+[1] ● 和 ○ 分别代表支持（实心圆）和不支持（空心圆）
+
+[2] 用于管理 Active Camera SDK 的跨平台编译和本地编译环境的 Docker 容器。包含了容器管理、镜像管理以及自动化环境设置等功能。
