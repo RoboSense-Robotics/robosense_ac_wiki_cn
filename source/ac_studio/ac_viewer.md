@@ -23,8 +23,8 @@ Mac OS 11以上 M1/2/Intel
 
 
 **软件准备：**  
-[AC Viewer 1.0.0 (64 bit) - Ubuntu 20.04](https://cdn.robosense.cn/AC_wiki/ac_viewer_Linux_x86_64_release_1.0.0.zip)  
-[AC Viewer 1.0.0 (64 bit) - windows 10](https://cdn.robosense.cn/AC_wiki/ac_viewer_Win_x86_64_release_1.0.0.7z)
+[AC Viewer 1.0.3 (64 bit) - Ubuntu 20.04](https://cdn.robosense.cn/AC_wiki/AcViewer_Linux_x86_64_release_1.0.3.zip)  
+[AC Viewer 1.0.3 (64 bit) - windows 10](https://cdn.robosense.cn/AC_wiki/AcViewer_Win_x86_64_release_1.0.3.zip)
 
 
 

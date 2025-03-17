@@ -15,8 +15,8 @@
         </tr>
     </tbody>
 </table>
-<iframe style="margin-bottom: 24px;" width="100%" height="389" src="https://cdn.robosense.cn/AC_wiki/target_detection.mp4" frameborder="0" allowfullscreen></iframe>  
+<iframe style="margin-bottom: 24px;" width="100%" height="389" src="https://cdn.robosense.cn/AC_wiki/target_detection_radxa.mp4" frameborder="0" allowfullscreen></iframe>  
 
-视频数据：[Foreground](https://cdn.robosense.cn/AC_wiki/target_detection.zip)   
+视频数据：[Foreground](https://cdn.robosense.cn/AC_wiki/target_detection_radxa.tar.gz)
 
-详细代码：[AC1 Pedestrian Detection](https://github.com/RoboSense-Robotics//perception) 
+详细代码：[AC1 Pedestrian Detection](https://github.com/RoboSense-Robotics/robosense_ac_perception)

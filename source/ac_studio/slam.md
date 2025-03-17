@@ -35,8 +35,8 @@
     </tbody>
 </table> 
 
-<iframe style="margin-bottom: 24px;" width="100%" height="264" src="https://cdn.robosense.cn/AC_wiki/3dgs_slam_demo.mp4" frameborder="0" allowfullscreen></iframe>
+<iframe style="margin-bottom: 24px;" width="100%" height="264" src="https://cdn.robosense.cn/AC_wiki/shuichi_slam_demo.mp4" frameborder="0" allowfullscreen></iframe>
 
-视频数据：[European architecture]()
+视频数据：[European architecture](https://cdn.robosense.cn/AC_wiki/shuichi.zip)
 
-详细代码：[AC1 SLAM](https://github.com/RoboSense-Robotics/slam)  
+详细代码：[AC1 SLAM](https://github.com/RoboSense-Robotics/robosense_ac_slam)

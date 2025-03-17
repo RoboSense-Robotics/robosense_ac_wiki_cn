@@ -20,4 +20,4 @@
 
 视频数据：[Nezha](https://cdn.robosense.cn/AC_wiki/nezha.tar.gz)   
 
-详细代码：[AC1 Color Lidar](https://github.com/RoboSense-Robotics/postprocess) 
+详细代码：[AC1 Color Lidar](https://github.com/RoboSense-Robotics/robosense_ac_postprocess)
