@@ -23,6 +23,6 @@
 </table>  
 <iframe style="margin-bottom: 24px;" width="100%" height="424" src="https://cdn.robosense.cn/AC_wiki/localization_demo.mp4" frameborder="0" allowfullscreen></iframe>  
 
-视频数据：[Rooftop](https://cdn.robosense.cn/AC_wiki/localization_demo.zip)  
+视频数据：[Mobile wheeled vehicle](https://cdn.robosense.cn/AC_wiki/localization_demo.zip)  
 
 详细代码：[AC1 Locatization](https://github.com/RoboSense-Robotics/robosense_localization)
