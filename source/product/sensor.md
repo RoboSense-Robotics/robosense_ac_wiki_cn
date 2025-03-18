@@ -51,7 +51,7 @@
             <td>盲区</td>
             <td>0.1m@90%</td>
             <td>精度（典型值）</td>
-            <td>±3cm@1sigma（室内）<br>±5cm@1sigma（室外）</td>
+            <td>±3cm@1σ（室内）<br>±5cm@1σ（室外）</td>
         </tr>
         <tr class="row-odd centered-table-text">
             <td>出点数</td>
