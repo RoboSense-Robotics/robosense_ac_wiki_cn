@@ -27,13 +27,13 @@ algorithms/3d.md
 ```{toctree}
 :maxdepth: 2
 
-algorithms/dense_depth_estimation.md
+algorithms/depth_estimation.md
 ```
 
 ```{toctree}
 :maxdepth: 2
 
-algorithms/target_test.md
+algorithms/object_detection.md
 ```
 
 ```{toctree}
