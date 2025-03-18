@@ -3,50 +3,46 @@
 
 以下视频提供了稠密深度估计离线演示效果，主要使用的硬件配置为：
 
-<table class="docutils align-default">
+<table class="docutils align-default" style="width: 100%;">
     <tbody>
-        <tr class="row-even">
+        <tr class="row-even centered-table-text">
             <td>计算平台</td>
             <td>CPU: Intel® Xeon(R) Gold 6230R CPU @ 2.10GHz x 104 <br> GPU: NVIDIA A40 <br> MEM: 64G </td>
         </tr>
-        <tr class="row-odd">
+        <tr class="row-odd centered-table-text">
             <td>模型</td>
             <td>PromptDA-vitlarge (1360M）</td>
         </tr>
-        <tr class="row-even">
+        <tr class="row-even centered-table-text">
             <td>传感器</td>
             <td>AC1</td>
         </tr>
     </tbody>
 </table>
-
 <iframe style="margin-bottom: 24px;" width="100%" height="308" src="https://cdn.robosense.cn/AC_wiki/dense_depth_net.mp4" frameborder="0" allowfullscreen></iframe>
 
-视频数据：[Library](https://cdn.robosense.cn/AC_wiki/dense_depth_net_demo.zip)
-
+视频数据：[Library](https://cdn.robosense.cn/AC_wiki/dense_depth_net_demo.zip)  
 详细代码：[AC1 Dense Depth vitlarge](https://github.com/RoboSense-Robotics/robosense_ac_perception)
 
 以下视频提供了同样场景离线演示效果，主要使用的硬件配置为：
 
-<table class="docutils align-default">
+<table class="docutils align-default" style="width: 100%;">
     <tbody>
-        <tr class="row-even">
+        <tr class="row-even centered-table-text">
             <td>计算平台</td>
             <td>Radxa ROCK5B+</td>
         </tr>
-        <tr class="row-odd">
+        <tr class="row-odd centered-table-text">
             <td>模型</td>
             <td>PromptDA-vitsmall（100M）</td>
         </tr>
-        <tr class="row-even">
+        <tr class="row-even centered-table-text">
             <td>传感器</td>
             <td>AC1</td>
         </tr>
     </tbody>
 </table>
-
 <iframe style="margin-bottom: 24px;" width="100%" height="308" src="https://cdn.robosense.cn/AC_wiki/dense_depth_net_radxa.mp4" frameborder="0" allowfullscreen></iframe>  
 
 视频数据：[Library](https://cdn.robosense.cn/AC_wiki/dense_depth_net_demo.zip)    
-
 详细代码：[AC1 Dense Depth vitsmall](https://github.com/RoboSense-Robotics/robosense_ac_perception)

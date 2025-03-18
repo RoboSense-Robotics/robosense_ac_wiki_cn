@@ -11,7 +11,7 @@ Welcome to RoboSense !
     product/hardware.md
 
 .. toctree::
-    :maxdepth: 0
+    :maxdepth: 2
     :caption: AC  Studio
     :numbered:
 
@@ -20,13 +20,6 @@ Welcome to RoboSense !
     ac_studio/driver.md
     ac_studio/tools.md
     ac_studio/algorithms.md
-    .. ac_studio/visual_fusion.md
-    .. ac_studio/localization.md
-    .. ac_studio/slam.md
-    .. ac_studio/3d.md
-    .. ac_studio/dense_depth_estimation.md
-    .. ac_studio/target_test.md
-    .. ac_studio/semantic_segmentation.md
 
 .. toctree::
     :maxdepth: 0

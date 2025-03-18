@@ -3,17 +3,17 @@
 
 以下视频提供了开放道路上语义分割离线演示效果，主要使用的硬件配置为：
 
-<table class="docutils align-default">
+<table class="docutils align-default" style="width: 100%;">
     <tbody>
-        <tr class="row-even">
+        <tr class="row-even centered-table-text">
             <td>计算平台</td>
             <td>CPU: Intel® Core™ i5-10500 CPU @ 3.10GHz x 12 <br> MEM: 32GB <br> GPU: NVIDIA GeForce RTX 3060 </td>
         </tr>
-        <tr class="row-odd">
+        <tr class="row-odd centered-table-text">
             <td>模型</td>
             <td>mask2former (216M)</td>
         </tr>
-        <tr class="row-even">
+        <tr class="row-even centered-table-text">
             <td>传感器</td>
             <td>AC1</td>
         </tr>
@@ -22,20 +22,21 @@
 <iframe style="margin-bottom: 24px;" width="100%" height="198" src="https://cdn.robosense.cn/AC_wiki/split_network.mp4" frameborder="0" allowfullscreen></iframe>  
 
 视频数据：[open road](https://cdn.robosense.cn/AC_wiki/split_network_demo.zip)  
+详细代码：[AC1 Semantic Segmentation mask2former](https://github.com/RoboSense-Robotics/robosense_ac_perception)
 
 以下视频提供了同样场景下语义分割离线演示效果，主要使用的硬件配置为：
 
-<table class="docutils align-default">
+<table class="docutils align-default" style="width: 100%;">
     <tbody>
-        <tr class="row-even">
+        <tr class="row-even centered-table-text">
             <td>计算平台</td>
             <td>Radxa ROCK5B+ </td>
         </tr>
-        <tr>
+        <tr class="row-odd centered-table-text">
             <td>模型</td>
             <td>PPliteseg (49M)</td>
         </tr>
-        <tr class="row-odd">
+        <tr class="row-even centered-table-text">
             <td>传感器</td>
             <td>AC1</td>
         </tr>
@@ -43,6 +44,5 @@
 </table> 
 <iframe style="margin-bottom: 24px;" width="100%" height="199" src="https://cdn.robosense.cn/AC_wiki/split_network_radxa.mp4" frameborder="0" allowfullscreen></iframe>  
 
-视频数据：[open road](https://cdn.robosense.cn/AC_wiki/split_network_demo.zip)
-
-详细代码：[AC1 Semantic Segmentation](https://github.com/RoboSense-Robotics/robosense_ac_perception)
+视频数据：[open road](https://cdn.robosense.cn/AC_wiki/split_network_demo.zip)  
+详细代码：[AC1 Semantic Segmentation PPliteseg](https://github.com/RoboSense-Robotics/robosense_ac_perception)

@@ -3,40 +3,37 @@
 
 以下视频提供了攀登某景区的 SLAM 离线演示效果，主要使用的硬件配置为： 
 
-<table class="docutils align-default">
+<table class="docutils align-default" style="width: 100%;">
     <tbody>
-        <tr class="row-even">
+        <tr class="row-even centered-table-text">
             <td>计算平台</td>
             <td>Radxa ROCK5B+ </td>
         </tr>
-        <tr class="row-odd">
+        <tr class="row-odd centered-table-text">
             <td>传感器</td>
             <td>AC1</td>
         </tr>
     </tbody>
-</table> 
-
+</table>
 <iframe style="margin-bottom: 24px;" width="100%" height="264" src="https://cdn.robosense.cn/AC_wiki/AC1_2.0_zuopaotai.mp4" frameborder="0" allowfullscreen></iframe>  
 
 视频数据：[Climbing Spot](https://cdn.robosense.cn/AC_wiki/zuopaotai.zip)
 
 以下视频提供了某景区欧式建筑的 SLAM 离线演示效果，主要使用的硬件配置为：
 
-<table class="docutils align-default">
+<table class="docutils align-default" style="width: 100%;">
     <tbody>
-        <tr class="row-even">
+        <tr class="row-even centered-table-text">
             <td>计算平台</td>
             <td>Radxa ROCK5B+ </td>
         </tr>
-        <tr class="row-odd">
+        <tr class="row-odd centered-table-text">
             <td>传感器</td>
             <td>AC1</td>
         </tr>
     </tbody>
-</table> 
-
+</table>
 <iframe style="margin-bottom: 24px;" width="100%" height="264" src="https://cdn.robosense.cn/AC_wiki/shuichi_slam_demo.mp4" frameborder="0" allowfullscreen></iframe>
 
-视频数据：[European architecture](https://cdn.robosense.cn/AC_wiki/shuichi.zip)
-
+视频数据：[European architecture](https://cdn.robosense.cn/AC_wiki/shuichi.zip)  
 详细代码：[AC1 SLAM](https://github.com/RoboSense-Robotics/robosense_ac_slam)
