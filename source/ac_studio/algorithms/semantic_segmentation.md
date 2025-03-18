@@ -37,7 +37,7 @@
 
 以下视频展示了该网络在支持的计算平台上对开放道路进行离线语义分割演示效果。
 
-<iframe style="margin-bottom: 24px;" width="100%" height="198" src="https://cdn.robosense.cn/AC_wiki/split_network.mp4" frameborder="0" allowfullscreen></iframe>  
+<iframe style="margin-bottom: 24px;" width="100%" height="199" src="https://cdn.robosense.cn/AC_wiki/split_network.mp4" frameborder="0" allowfullscreen></iframe>  
 
 视频数据：[open road](https://cdn.robosense.cn/AC_wiki/split_network_demo.zip)  
 详细代码：[AC1 Semantic Segmentation mask2former](https://github.com/RoboSense-Robotics/robosense_ac_perception)
