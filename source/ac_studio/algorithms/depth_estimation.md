@@ -34,7 +34,9 @@
 
 以下视频展示了该网络在支持的计算平台上对室内场景进行离线稠密深度估计演示效果。
 
-<iframe style="margin-bottom: 24px;" width="100%" height="308" src="https://cdn.robosense.cn/AC_wiki/dense_depth_net.mp4" frameborder="0" allowfullscreen></iframe>
+<div style="margin-bottom: 24px; position:relative; width:100%; padding-top: 56.25%;" class="video-container">
+    <iframe src="https://cdn.robosense.cn/AC_wiki/dense_depth_net.mp4" frameborder="0" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+</div>
 
 视频数据：[Library](https://cdn.robosense.cn/AC_wiki/dense_depth_net_demo.zip)  
 详细代码：[AC1 Dense Depth vitlarge](https://github.com/RoboSense-Robotics/robosense_ac_perception)
