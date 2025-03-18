@@ -1,47 +1,79 @@
 # 语义分割  
 通过 mask2former 模型和 PPliteseg 模型对图像进行语义分割，生成目标的分割掩码。模型大小对结果尤其是细节上会产生不同的影响，以下展示了不同大小模型在不同平台上的效果。
 
-以下视频提供了开放道路上语义分割离线演示效果，主要使用的硬件配置为：
+## mask2former
+
+该网络目前支持的计算平台如下表所示：
 
 <table class="docutils align-default" style="width: 100%;">
     <tbody>
         <tr class="row-even centered-table-text">
-            <td>计算平台</td>
-            <td>CPU: Intel® Core™ i5-10500 CPU @ 3.10GHz x 12 <br> MEM: 32GB <br> GPU: NVIDIA GeForce RTX 3060 </td>
+            <td rowspan="2">计算平台</td>
+            <td>通用 X86 架构计算机</td>
+            <td>Radxa ROCK5B+</td>
+            <td>OrangePi 5 Ultra</td>
+            <td>NVIDIA Jetson Orin Nano Super</td>
+            <td>D-Robotics RDK X5</td>
         </tr>
         <tr class="row-odd centered-table-text">
-            <td>模型</td>
-            <td>mask2former (216M)</td>
+            <td>●</td>
+            <td>○</td>
+            <td>○</td>
+            <td>○</td>
+            <td>○</td>
         </tr>
         <tr class="row-even centered-table-text">
+            <td>模型大小</td>
+            <td colspan="5">216M</td>
+        </tr>
+        <tr class="row-odd centered-table-text">
             <td>传感器</td>
-            <td>AC1</td>
+            <td colspan="5">AC1</td>
         </tr>
     </tbody>
-</table> 
+</table>
+
+以下视频展示了该网络在支持的计算平台上对开放道路进行离线语义分割演示效果。
+
 <iframe style="margin-bottom: 24px;" width="100%" height="198" src="https://cdn.robosense.cn/AC_wiki/split_network.mp4" frameborder="0" allowfullscreen></iframe>  
 
 视频数据：[open road](https://cdn.robosense.cn/AC_wiki/split_network_demo.zip)  
 详细代码：[AC1 Semantic Segmentation mask2former](https://github.com/RoboSense-Robotics/robosense_ac_perception)
 
-以下视频提供了同样场景下语义分割离线演示效果，主要使用的硬件配置为：
+## PPliteseg
+
+该网络目前支持的计算平台如下表所示：
 
 <table class="docutils align-default" style="width: 100%;">
     <tbody>
         <tr class="row-even centered-table-text">
-            <td>计算平台</td>
-            <td>Radxa ROCK5B+ </td>
+            <td rowspan="2">计算平台</td>
+            <td>通用 X86 架构计算机</td>
+            <td>Radxa ROCK5B+</td>
+            <td>OrangePi 5 Ultra</td>
+            <td>NVIDIA Jetson Orin Nano Super</td>
+            <td>D-Robotics RDK X5</td>
         </tr>
         <tr class="row-odd centered-table-text">
-            <td>模型</td>
-            <td>PPliteseg (49M)</td>
+            <td>●</td>
+            <td>●</td>
+            <td>○</td>
+            <td>○</td>
+            <td>○</td>
         </tr>
         <tr class="row-even centered-table-text">
+            <td>模型大小</td>
+            <td colspan="5">49M</td>
+        </tr>
+        <tr class="row-odd centered-table-text">
             <td>传感器</td>
-            <td>AC1</td>
+            <td colspan="5">AC1</td>
         </tr>
     </tbody>
-</table> 
+</table>
+
+以下视频展示了该网络在支持的计算平台上对开放道路进行离线语义分割演示效果。
+
 <iframe style="margin-bottom: 24px;" width="100%" height="199" src="https://cdn.robosense.cn/AC_wiki/split_network_radxa.mp4" frameborder="0" allowfullscreen></iframe>  
 
 视频数据：[open road](https://cdn.robosense.cn/AC_wiki/split_network_demo.zip)  

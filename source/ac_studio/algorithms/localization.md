@@ -3,24 +3,38 @@
 - msf_localization 是基于 **ESKF** 框架的融合定位模块，可提供只基于 **imu+轮速** 的相对定位信息以及融合 **点云定位结果** 的全局定位信息，该模块也可接入其他传感器观测进行后续拓展；
 - lidar_localization 是基于点云地图的点云定位模块，使用 ceres 进行点云匹配，使用PCL进行点云预处理。  
 
-以下视频提供了移动轮式小车定位实时演示效果，主要使用的硬件配置为：  
+该算法目前支持的计算平台如下表所示：
 
 <table class="docutils align-default" style="width: 100%;">
     <tbody>
         <tr class="row-even centered-table-text">
-            <td>计算平台</td>
+            <td rowspan="2">计算平台</td>
+            <td>通用 X86 架构计算机</td>
             <td>Radxa ROCK5B+</td>
+            <td>OrangePi 5 Ultra</td>
+            <td>NVIDIA Jetson Orin Nano Super</td>
+            <td>D-Robotics RDK X5</td>
         </tr>
         <tr class="row-odd centered-table-text">
-            <td>传感器</td>
-            <td>AC1</td>
+            <td>●</td>
+            <td>●</td>
+            <td>○</td>
+            <td>○</td>
+            <td>○</td>
         </tr>
         <tr class="row-even centered-table-text">
+            <td>传感器</td>
+            <td colspan="5">AC1</td>
+        </tr>
+        <tr class="row-odd centered-table-text">
             <td>移动机器人</td>
-            <td>轮式移动平台</td>
+            <td colspan="5">轮式移动平台</td>
         </tr>
     </tbody>
-</table>  
+</table>
+
+以下视频展示了在支持的计算平台上对移动轮式小车进行实时定位演示效果。
+
 <iframe style="margin-bottom: 24px;" width="100%" height="424" src="https://cdn.robosense.cn/AC_wiki/localization_demo.mp4" frameborder="0" allowfullscreen></iframe>  
 
 视频数据：[Mobile wheeled vehicle](https://cdn.robosense.cn/AC_wiki/localization_demo.zip)  

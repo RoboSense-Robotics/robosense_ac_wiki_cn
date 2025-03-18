@@ -4,6 +4,12 @@
 
 以下视频展示了两个客户是如何在人形机器人本体上安装 Active Camera，并利用其感知能力协助机器人完成可移动区域的探测、定位及导航任务。
 
-<iframe style="margin-bottom: 24px;" width="100%" height="199" src="https://cdn.robosense.cn/AC_wiki/Healthy_loong.mp4" frameborder="0" allowfullscreen></iframe>
+[//]: # (padding-top 设置为 56.25%（即 9/16），以确保容器的宽高比为 16:9)
 
-<iframe style="margin-bottom: 24px;" width="100%" height="199" src="https://cdn.robosense.cn/AC_wiki/hust_huazhong.mp4" frameborder="0" allowfullscreen></iframe>
+<div style="margin-bottom: 24px; position:relative; width:100%; padding-top: 56.25%;" class="video-container">
+    <iframe src="https://cdn.robosense.cn/AC_wiki/Healthy_loong.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+</div>
+
+<div style="margin-bottom: 24px; position:relative; width:100%; padding-top: 56.25%;" class="video-container">
+    <iframe src="https://cdn.robosense.cn/AC_wiki/hust_huazhong.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+</div>

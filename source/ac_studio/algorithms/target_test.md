@@ -1,20 +1,38 @@
 # 目标检测与识别  
 通过 Yolo V8 检测模型对图像中的主要障碍物（例如人、车等）进行识别，得到目标的类别与位置。  
 
-以下视频提供了室内场景的行人检测离线演示效果，主要使用的硬件配置为：  
+该算法目前支持的计算平台如下表所示：
 
 <table class="docutils align-default" style="width: 100%;">
     <tbody>
         <tr class="row-even centered-table-text">
-            <td>计算平台</td>
-            <td>Radxa ROCK5B+ </td>
+            <td rowspan="2">计算平台</td>
+            <td>通用 X86 架构计算机</td>
+            <td>Radxa ROCK5B+</td>
+            <td>OrangePi 5 Ultra</td>
+            <td>NVIDIA Jetson Orin Nano Super</td>
+            <td>D-Robotics RDK X5</td>
+        </tr>
+        <tr class="row-odd centered-table-text">
+            <td>●</td>
+            <td>●</td>
+            <td>○</td>
+            <td>○</td>
+            <td>○</td>
+        </tr>
+        <tr class="row-even centered-table-text">
+            <td>模型大小</td>
+            <td colspan="5">100M</td>
         </tr>
         <tr class="row-odd centered-table-text">
             <td>传感器</td>
-            <td>AC1</td>
+            <td colspan="5">AC1</td>
         </tr>
     </tbody>
 </table>
+
+以下视频展示了在支持的计算平台上对室内场景进行离线行人检测演示效果。
+
 <iframe style="margin-bottom: 24px;" width="100%" height="389" src="https://cdn.robosense.cn/AC_wiki/target_detection_radxa.mp4" frameborder="0" allowfullscreen></iframe>  
 
 视频数据：[Foreground](https://cdn.robosense.cn/AC_wiki/target_detection_radxa.tar.gz)  
