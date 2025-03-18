@@ -4,23 +4,21 @@
 
 以下视频提供了点云上色的实时演示效果，主要使用的硬件配置为：  
 
-<table class="docutils align-default">
+<table class="docutils align-default" style="width: 100%;">
     <tbody>
-        <tr class="row-even">
+        <tr class="row-even centered-table-text">
             <td>计算平台</td>
             <td>Radxa ROCK5B+ </td>
         </tr>
-        <tr class="row-odd">
+        <tr class="row-odd centered-table-text">
             <td>传感器</td>
             <td>AC1</td>
         </tr>
     </tbody>
-</table>   
-
+</table>
 <iframe style="margin-bottom: 24px;" width="100%" height="296" src="https://cdn.robosense.cn/AC_wiki/postprocess_nezha.mp4" frameborder="0" allowfullscreen></iframe>  
 
-视频数据：[Nezha](https://cdn.robosense.cn/AC_wiki/nezha.tar.gz)   
-
+视频数据：[Nezha](https://cdn.robosense.cn/AC_wiki/nezha.tar.gz)  
 详细代码：[AC1 Color Lidar](https://github.com/RoboSense-Robotics/robosense_ac_postprocess)
 
 
@@ -31,17 +29,17 @@
 
 以下视频提供了移动轮式小车定位实时演示效果，主要使用的硬件配置为：  
 
-<table class="docutils align-default">
+<table class="docutils align-default" style="width: 100%;">
     <tbody>
-        <tr class="row-even">
+        <tr class="row-even centered-table-text">
             <td>计算平台</td>
             <td>Radxa ROCK5B+</td>
         </tr>
-        <tr class="row-odd">
+        <tr class="row-odd centered-table-text">
             <td>传感器</td>
             <td>AC1</td>
         </tr>
-        <tr class="row-even">
+        <tr class="row-even centered-table-text">
             <td>移动机器人</td>
             <td>轮式移动平台</td>
         </tr>
@@ -50,7 +48,6 @@
 <iframe style="margin-bottom: 24px;" width="100%" height="424" src="https://cdn.robosense.cn/AC_wiki/localization_demo.mp4" frameborder="0" allowfullscreen></iframe>  
 
 视频数据：[Mobile wheeled vehicle](https://cdn.robosense.cn/AC_wiki/localization_demo.zip)  
-
 详细代码：[AC1 Locatization](https://github.com/RoboSense-Robotics/robosense_localization)
 
 
@@ -59,42 +56,39 @@
 
 以下视频提供了攀登某景区的 SLAM 离线演示效果，主要使用的硬件配置为： 
 
-<table class="docutils align-default">
+<table class="docutils align-default" style="width: 100%;">
     <tbody>
-        <tr class="row-even">
+        <tr class="row-even centered-table-text">
             <td>计算平台</td>
             <td>Radxa ROCK5B+ </td>
         </tr>
-        <tr class="row-odd">
+        <tr class="row-odd centered-table-text">
             <td>传感器</td>
             <td>AC1</td>
         </tr>
     </tbody>
-</table> 
-
+</table>
 <iframe style="margin-bottom: 24px;" width="100%" height="264" src="https://cdn.robosense.cn/AC_wiki/AC1_2.0_zuopaotai.mp4" frameborder="0" allowfullscreen></iframe>  
 
 视频数据：[Climbing Spot](https://cdn.robosense.cn/AC_wiki/zuopaotai.zip)
 
 以下视频提供了某景区欧式建筑的 SLAM 离线演示效果，主要使用的硬件配置为：
 
-<table class="docutils align-default">
+<table class="docutils align-default" style="width: 100%;">
     <tbody>
-        <tr class="row-even">
+        <tr class="row-even centered-table-text">
             <td>计算平台</td>
             <td>Radxa ROCK5B+ </td>
         </tr>
-        <tr class="row-odd">
+        <tr class="row-odd centered-table-text">
             <td>传感器</td>
             <td>AC1</td>
         </tr>
     </tbody>
-</table> 
-
+</table>
 <iframe style="margin-bottom: 24px;" width="100%" height="264" src="https://cdn.robosense.cn/AC_wiki/shuichi_slam_demo.mp4" frameborder="0" allowfullscreen></iframe>
 
-视频数据：[European architecture](https://cdn.robosense.cn/AC_wiki/shuichi.zip)
-
+视频数据：[European architecture](https://cdn.robosense.cn/AC_wiki/shuichi.zip)  
 详细代码：[AC1 SLAM](https://github.com/RoboSense-Robotics/robosense_ac_slam)
 
 
@@ -103,13 +97,13 @@
 
 以下视频提供了某景区欧式建筑的 3D高斯溅射离线演示效果，主要使用的硬件配置为：  
 
-<table class="docutils align-default">
+<table class="docutils align-default" style="width: 100%;">
     <tbody>
-        <tr class="row-even">
+        <tr class="row-even centered-table-text">
             <td>计算平台</td>
             <td>CPU: Intel® Xeon(R) Gold 6230R CPU @ 2.10GHz x 104 <br> GPU: NVIDIA A40 <br> MEM: 64G（根据场景的大小，对显存的要求有所区别） </td>
         </tr>
-        <tr class="row-odd">
+        <tr class="row-odd centered-table-text">
             <td>传感器</td>
             <td>AC1</td>
         </tr>
@@ -117,8 +111,7 @@
 </table>
 <iframe style="margin-bottom: 24px;" width="100%" height="435" src="https://cdn.robosense.cn/AC_wiki/3dgs_demo.mp4" frameborder="0" allowfullscreen></iframe>  
 
-视频数据：[European architecture](https://cdn.robosense.cn/AC_wiki/shuichi.zip)
-
+视频数据：[European architecture](https://cdn.robosense.cn/AC_wiki/shuichi.zip)  
 详细代码：[AC1 3dgs](https://github.com/RoboSense-Robotics/robosense_ac_3dgs)
 
 
@@ -127,52 +120,48 @@
 
 以下视频提供了稠密深度估计离线演示效果，主要使用的硬件配置为：
 
-<table class="docutils align-default">
+<table class="docutils align-default" style="width: 100%;">
     <tbody>
-        <tr class="row-even">
+        <tr class="row-even centered-table-text">
             <td>计算平台</td>
             <td>CPU: Intel® Xeon(R) Gold 6230R CPU @ 2.10GHz x 104 <br> GPU: NVIDIA A40 <br> MEM: 64G </td>
         </tr>
-        <tr class="row-odd">
+        <tr class="row-odd centered-table-text">
             <td>模型</td>
             <td>PromptDA-vitlarge (1360M）</td>
         </tr>
-        <tr class="row-even">
+        <tr class="row-even centered-table-text">
             <td>传感器</td>
             <td>AC1</td>
         </tr>
     </tbody>
 </table>
-
 <iframe style="margin-bottom: 24px;" width="100%" height="308" src="https://cdn.robosense.cn/AC_wiki/dense_depth_net.mp4" frameborder="0" allowfullscreen></iframe>
 
-视频数据：[Library](https://cdn.robosense.cn/AC_wiki/dense_depth_net_demo.zip)
-
+视频数据：[Library](https://cdn.robosense.cn/AC_wiki/dense_depth_net_demo.zip)  
 详细代码：[AC1 Dense Depth vitlarge](https://github.com/RoboSense-Robotics/robosense_ac_perception)
 
 以下视频提供了同样场景离线演示效果，主要使用的硬件配置为：
 
-<table class="docutils align-default">
+<table class="docutils align-default" style="width: 100%;">
     <tbody>
-        <tr class="row-even">
+        <tr class="row-even centered-table-text">
             <td>计算平台</td>
             <td>Radxa ROCK5B+</td>
         </tr>
-        <tr class="row-odd">
+        <tr class="row-odd centered-table-text">
             <td>模型</td>
             <td>PromptDA-vitsmall（100M）</td>
         </tr>
-        <tr class="row-even">
+        <tr class="row-even centered-table-text">
             <td>传感器</td>
             <td>AC1</td>
         </tr>
     </tbody>
 </table>
-
 <iframe style="margin-bottom: 24px;" width="100%" height="308" src="https://cdn.robosense.cn/AC_wiki/dense_depth_net_radxa.mp4" frameborder="0" allowfullscreen></iframe>  
 
 视频数据：[Library](https://cdn.robosense.cn/AC_wiki/dense_depth_net_demo.zip)    
-
 详细代码：[AC1 Dense Depth vitsmall](https://github.com/RoboSense-Robotics/robosense_ac_perception)
 
 
@@ -181,13 +170,13 @@
 
 以下视频提供了室内场景的行人检测离线演示效果，主要使用的硬件配置为：  
 
-<table class="docutils align-default">
+<table class="docutils align-default" style="width: 100%;">
     <tbody>
-        <tr class="row-even">
+        <tr class="row-even centered-table-text">
             <td>计算平台</td>
             <td>Radxa ROCK5B+ </td>
         </tr>
-        <tr class="row-odd">
+        <tr class="row-odd centered-table-text">
             <td>传感器</td>
             <td>AC1</td>
         </tr>
@@ -195,8 +184,7 @@
 </table>
 <iframe style="margin-bottom: 24px;" width="100%" height="389" src="https://cdn.robosense.cn/AC_wiki/target_detection_radxa.mp4" frameborder="0" allowfullscreen></iframe>  
 
-视频数据：[Foreground](https://cdn.robosense.cn/AC_wiki/target_detection_radxa.tar.gz)
-
+视频数据：[Foreground](https://cdn.robosense.cn/AC_wiki/target_detection_radxa.tar.gz)  
 详细代码：[AC1 Pedestrian Detection](https://github.com/RoboSense-Robotics/robosense_ac_perception)
 
 
@@ -205,17 +193,17 @@
 
 以下视频提供了开放道路上语义分割离线演示效果，主要使用的硬件配置为：
 
-<table class="docutils align-default">
+<table class="docutils align-default" style="width: 100%;">
     <tbody>
-        <tr class="row-even">
+        <tr class="row-even centered-table-text">
             <td>计算平台</td>
             <td>CPU: Intel® Core™ i5-10500 CPU @ 3.10GHz x 12 <br> MEM: 32GB <br> GPU: NVIDIA GeForce RTX 3060 </td>
         </tr>
-        <tr class="row-odd">
+        <tr class="row-odd centered-table-text">
             <td>模型</td>
             <td>mask2former (216M)</td>
         </tr>
-        <tr class="row-even">
+        <tr class="row-even centered-table-text">
             <td>传感器</td>
             <td>AC1</td>
         </tr>
@@ -224,22 +212,21 @@
 <iframe style="margin-bottom: 24px;" width="100%" height="198" src="https://cdn.robosense.cn/AC_wiki/split_network.mp4" frameborder="0" allowfullscreen></iframe>  
 
 视频数据：[open road](https://cdn.robosense.cn/AC_wiki/split_network_demo.zip)  
-
 详细代码：[AC1 Semantic Segmentation mask2former](https://github.com/RoboSense-Robotics/robosense_ac_perception)
 
 以下视频提供了同样场景下语义分割离线演示效果，主要使用的硬件配置为：
 
-<table class="docutils align-default">
+<table class="docutils align-default" style="width: 100%;">
     <tbody>
-        <tr class="row-even">
+        <tr class="row-even centered-table-text">
             <td>计算平台</td>
             <td>Radxa ROCK5B+ </td>
         </tr>
-        <tr>
+        <tr class="row-odd centered-table-text">
             <td>模型</td>
             <td>PPliteseg (49M)</td>
         </tr>
-        <tr class="row-odd">
+        <tr class="row-even centered-table-text">
             <td>传感器</td>
             <td>AC1</td>
         </tr>
@@ -247,6 +234,5 @@
 </table> 
 <iframe style="margin-bottom: 24px;" width="100%" height="199" src="https://cdn.robosense.cn/AC_wiki/split_network_radxa.mp4" frameborder="0" allowfullscreen></iframe>  
 
-视频数据：[open road](https://cdn.robosense.cn/AC_wiki/split_network_demo.zip)
-
+视频数据：[open road](https://cdn.robosense.cn/AC_wiki/split_network_demo.zip)  
 详细代码：[AC1 Semantic Segmentation PPliteseg](https://github.com/RoboSense-Robotics/robosense_ac_perception)

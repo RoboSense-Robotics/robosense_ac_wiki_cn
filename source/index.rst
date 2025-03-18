@@ -41,6 +41,7 @@ Welcome to RoboSense !
     :caption: 应用案例
     :numbered:
 
+    cases/humanoid_robot.md
     cases/house_clean.md
 
 .. toctree::
