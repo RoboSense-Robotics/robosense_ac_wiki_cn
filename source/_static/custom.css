@@ -63,6 +63,10 @@
   }
 }
 
+.wy-nav-content {
+    max-width: none;
+}
+
 #lightbox {
     position: fixed;
     z-index: 999;

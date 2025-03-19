@@ -37,8 +37,8 @@
 
 以下视频展示了该网络在支持的计算平台上对开放道路进行离线语义分割演示效果。
 
-<div style="margin-bottom: 24px; position:relative; width:100%; padding-top: 56.25%;" class="video-container">
-    <iframe src="https://cdn.robosense.cn/AC_wiki/split_network.mp4" frameborder="0" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+<div style="margin-bottom: 24px; position:relative; width:100%; padding-top: 28.33%;" class="video-container">
+    <iframe src="https://cdn.robosense.cn/AC_wiki/split_network_wiki.mp4" frameborder="0" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
 </div>
 
 视频数据：[open road](https://cdn.robosense.cn/AC_wiki/split_network_demo.zip)  
@@ -78,7 +78,9 @@
 
 以下视频展示了该网络在支持的计算平台上对开放道路进行离线语义分割演示效果。
 
-<iframe style="margin-bottom: 24px;" width="100%" height="199" src="https://cdn.robosense.cn/AC_wiki/split_network_radxa.mp4" frameborder="0" allowfullscreen></iframe>  
+<div style="margin-bottom: 24px; position:relative; width:100%; padding-top: 28.57%;" class="video-container">
+    <iframe src="https://cdn.robosense.cn/AC_wiki/split_network_radxa.mp4" frameborder="0" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+</div>
 
 视频数据：[open road](https://cdn.robosense.cn/AC_wiki/split_network_demo.zip)  
 详细代码：[AC1 Semantic Segmentation PPliteseg](https://github.com/RoboSense-Robotics/robosense_ac_perception)

@@ -29,8 +29,8 @@
 
 以下视频展示了在支持的计算平台上对某景区进行离线 SLAM 的演示效果。
 
-<div style="margin-bottom: 24px; position:relative; width:100%; padding-top: 56.25%;" class="video-container">
-    <iframe src="https://cdn.robosense.cn/AC_wiki/AC1_2.0_zuopaotai.mp4" frameborder="0" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+<div style="margin-bottom: 24px; position:relative; width:100%; padding-top: 37.87%;" class="video-container">
+    <iframe src="https://cdn.robosense.cn/AC_wiki/AC1_2.0_zuopaotai_wiki.mp4" frameborder="0" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
 </div>
 
 视频数据：[Climbing Spot](https://cdn.robosense.cn/AC_wiki/zuopaotai.zip)
