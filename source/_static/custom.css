@@ -62,11 +62,11 @@
     color: #e72420 !important;
   }
 }
-
+/*
 .wy-nav-content {
     max-width: none;
 }
-
+*/
 #lightbox {
     position: fixed;
     z-index: 999;
