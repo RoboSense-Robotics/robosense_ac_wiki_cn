@@ -37,7 +37,9 @@
 
 以下视频展示了在支持的计算平台上对某景区欧式建筑进行离线 SLAM 的演示效果。
 
-<iframe style="margin-bottom: 24px;" width="100%" height="264" src="https://cdn.robosense.cn/AC_wiki/shuichi_slam_demo.mp4" frameborder="0" allowfullscreen></iframe>
+<div style="margin-bottom: 24px; position:relative; width:100%; padding-top: 41.00%;" class="video-container">
+    <iframe src="https://cdn.robosense.cn/AC_wiki/shuichi_slam_demo.mp4" frameborder="0" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+</div>
 
 视频数据：[European architecture](https://cdn.robosense.cn/AC_wiki/shuichi.zip)  
 详细代码：[AC1 SLAM](https://github.com/RoboSense-Robotics/robosense_ac_slam)
