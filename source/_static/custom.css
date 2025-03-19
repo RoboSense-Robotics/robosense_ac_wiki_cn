@@ -30,6 +30,11 @@
   }
 }
 
+/* 隐藏底部广告 */
+#readthedocs-ea-text-footer {
+  display: none;
+}
+
 /* 面包屑样式调整 */
 .wy-breadcrumbs-translate {
   margin-right: 24px;
