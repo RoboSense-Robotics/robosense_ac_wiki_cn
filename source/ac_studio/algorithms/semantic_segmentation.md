@@ -61,7 +61,7 @@
         <tr class="row-odd centered-table-text">
             <td>●</td>
             <td>●</td>
-            <td>○</td>
+            <td>●</td>
             <td>○</td>
             <td>○</td>
         </tr>

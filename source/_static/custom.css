@@ -62,11 +62,13 @@
     color: #e72420 !important;
   }
 }
-/*
+
 .wy-nav-content {
-    max-width: none;
+    width: 100%;       /* 占据整个浏览器窗口宽度 */
+    max-width: 1360px; /* 最大宽度限制为 1360px */
+    margin: 0 auto;    /* 居中显示 */
 }
-*/
+
 #lightbox {
     position: fixed;
     z-index: 999;

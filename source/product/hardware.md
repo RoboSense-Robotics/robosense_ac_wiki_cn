@@ -51,7 +51,7 @@
         <td>驱动</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
         <td>○</td>
         <td>○</td>
     </tr>
@@ -59,7 +59,7 @@
         <td>采集</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
         <td>○</td>
         <td>○</td>
     </tr>
@@ -67,7 +67,7 @@
         <td>监控</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
         <td>○</td>
         <td>○</td>
     </tr>
@@ -75,7 +75,7 @@
         <td>标定</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
         <td>○</td>
         <td>○</td>
     </tr>
@@ -83,7 +83,7 @@
         <td>点云与视觉融合</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
         <td>○</td>
         <td>○</td>
     </tr>
@@ -91,7 +91,7 @@
         <td>定位</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
         <td>○</td>
         <td>○</td>
     </tr>
@@ -99,7 +99,7 @@
         <td>slam</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
         <td>○</td>
         <td>○</td>
     </tr>
@@ -115,7 +115,7 @@
         <td>稠密深度估计</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
         <td>○</td>
         <td>○</td>
     </tr>
@@ -123,7 +123,7 @@
         <td>目标检测与识别</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
         <td>○</td>
         <td>○</td>
     </tr>
@@ -131,7 +131,7 @@
         <td>语义分割</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
         <td>○</td>
         <td>○</td>
     </tr>
