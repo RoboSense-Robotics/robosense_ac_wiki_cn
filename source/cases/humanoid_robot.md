@@ -7,9 +7,9 @@
 [//]: # (padding-top 设置为 56.25%（即 9/16），以确保容器的宽高比为 16:9)
 
 <div style="margin-bottom: 24px; position:relative; width:100%; padding-top: 56.25%;" class="video-container">
-    <iframe src="https://cdn.robosense.cn/AC_wiki/Healthy_loong.mp4" frameborder="0" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+    <iframe src="https://cdn.robosense.cn/AC_wiki/Healthy_loong.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
 </div>
 
 <div style="margin-bottom: 24px; position:relative; width:100%; padding-top: 56.25%;" class="video-container">
-    <iframe src="https://cdn.robosense.cn/AC_wiki/hust_huazhong.mp4" frameborder="0" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+    <iframe src="https://cdn.robosense.cn/AC_wiki/hust_huazhong.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
 </div>

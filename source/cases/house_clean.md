@@ -6,5 +6,5 @@
 以下视频显示了在草坪作业割草机的实时定位和导航情况，可以看到其准确识别了草坪边界，并且避开了各种障碍物：  
 
 <div style="margin-bottom: 24px; position:relative; width:100%; padding-top: 43.79%;" class="video-container">
-    <iframe src="https://cdn.robosense.cn/AC_wiki/edge_detection.mp4" frameborder="0" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+    <iframe src="https://cdn.robosense.cn/AC_wiki/edge_detection.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
 </div>

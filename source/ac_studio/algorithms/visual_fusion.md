@@ -30,7 +30,7 @@
 以下视频展示了在支持的计算平台上进行实时点云上色的演示效果。
 
 <div style="margin-bottom: 24px; position:relative; width:100%; padding-top: 42.46%;" class="video-container">
-    <iframe src="https://cdn.robosense.cn/AC_wiki/postprocess_nezha_wiki.mp4" frameborder="0" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+    <iframe src="https://cdn.robosense.cn/AC_wiki/postprocess_nezha_wiki.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
 </div>
 
 视频数据：[Nezha](https://cdn.robosense.cn/AC_wiki/nezha.tar.gz)  

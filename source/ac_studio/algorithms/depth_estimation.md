@@ -35,7 +35,7 @@
 以下视频展示了该网络在支持的计算平台上对室内场景进行离线稠密深度估计演示效果。
 
 <div style="margin-bottom: 24px; position:relative; width:100%; padding-top: 44.12%;" class="video-container">
-    <iframe src="https://cdn.robosense.cn/AC_wiki/dense_depth_net_wiki.mp4" frameborder="0" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+    <iframe src="https://cdn.robosense.cn/AC_wiki/dense_depth_net_wiki.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
 </div>
 
 视频数据：[Library](https://cdn.robosense.cn/AC_wiki/dense_depth_net_demo.zip)  
@@ -75,7 +75,7 @@
 以下视频展示了该网络在支持的计算平台上对室内场景进行离线稠密深度估计演示效果。
 
 <div style="margin-bottom: 24px; position:relative; width:100%; padding-top: 44.12%;" class="video-container">
-    <iframe src="https://cdn.robosense.cn/AC_wiki/dense_depth_net_radxa.mp4" frameborder="0" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+    <iframe src="https://cdn.robosense.cn/AC_wiki/dense_depth_net_radxa.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
 </div>
 
 视频数据：[Library](https://cdn.robosense.cn/AC_wiki/dense_depth_net_demo.zip)    
