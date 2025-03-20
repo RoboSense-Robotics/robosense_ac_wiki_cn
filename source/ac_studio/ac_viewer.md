@@ -60,13 +60,21 @@ AC Viewer 是一款专为 Active Camera 系列产品设计的软件，可用于�
 
  **软件使用：**  
 - 检查设备是否正常连接，检查数据流是否正常
-<iframe style="margin-bottom: 24px;" width="100%" height="386" src="https://cdn.robosense.cn/AC_wiki/acview_check.mp4" frameborder="0" allowfullscreen></iframe>
+<div style="margin-bottom: 24px; position:relative; width:100%; padding-top: 55.33%;" class="video-container">
+    <iframe src="https://cdn.robosense.cn/AC_wiki/acview_check.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+</div>
 
 - 录制
-<iframe style="margin-bottom: 24px;" width="100%" height="386" src="https://cdn.robosense.cn/AC_wiki/acview_collect.mp4" frameborder="0" allowfullscreen></iframe>
+<div style="margin-bottom: 24px; position:relative; width:100%; padding-top: 55.33%;" class="video-container">
+    <iframe src="https://cdn.robosense.cn/AC_wiki/acview_collect.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+</div>
 
 - 播放
-<iframe style="margin-bottom: 24px;" width="100%" height="386" src="https://cdn.robosense.cn/AC_wiki/acview_replay.mp4" frameborder="0" allowfullscreen></iframe>
+<div style="margin-bottom: 24px; position:relative; width:100%; padding-top: 55.33%;" class="video-container">
+    <iframe src="https://cdn.robosense.cn/AC_wiki/acview_replay.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+</div>
 
 - 离线slam
-<iframe style="margin-bottom: 24px;" width="100%" height="386" src="https://cdn.robosense.cn/AC_wiki/acview_slam.mp4" frameborder="0" allowfullscreen></iframe>
+<div style="margin-bottom: 24px; position:relative; width:100%; padding-top: 55.33%;" class="video-container">
+    <iframe src="https://cdn.robosense.cn/AC_wiki/acview_slam.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+</div>

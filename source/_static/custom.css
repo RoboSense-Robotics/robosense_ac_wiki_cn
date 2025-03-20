@@ -64,9 +64,9 @@
 }
 
 .wy-nav-content {
-    width: 100%;       /* 占据整个浏览器窗口宽度 */
-    max-width: 1360px; /* 最大宽度限制为 1360px */
-    margin: 0 auto;    /* 居中显示 */
+    width: 100%;
+    max-width: 1360px;
+    margin: 0;
 }
 
 #lightbox {
