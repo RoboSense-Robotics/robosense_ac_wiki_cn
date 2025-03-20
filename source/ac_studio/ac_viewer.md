@@ -53,8 +53,8 @@ AC Viewer 是一款专为 Active Camera 系列产品设计的软件，可用于�
 
 
 **软件准备：**  
-[AC Viewer 1.0.3 (64 bit) - Ubuntu 20.04](https://cdn.robosense.cn/AC_wiki/AcViewer_Linux_x86_64_release_1.0.3.zip)  
-[AC Viewer 1.0.3 (64 bit) - windows 10](https://cdn.robosense.cn/AC_wiki/AcViewer_Win_x86_64_release_1.0.3.zip)
+[AC Viewer lastest version (64 bit) - Ubuntu 20.04](https://cdn.robosense.cn/AC_wiki/AcViewer_Linux_x86_64_release_lastest.zip)  
+[AC Viewer lastest version (64 bit) - windows 10](https://cdn.robosense.cn/AC_wiki/AcViewer_Win_x86_64_release_lastest.zip)
 
 
 
