@@ -87,6 +87,6 @@ html_context = {
     'conf_py_path': 'source/',  # conf.py 的路径，相对于 github_repo 的根目录
     'root_path_parts': 'product/',  # 示例
     'source_suffix': '.md',  # 示例
-    'wiki_cn_url': 'https://robosense-wiki-cn.readthedocs.io/',  # wiki中文地址
-    'wiki_en_url': 'https://robosense-wiki-en.readthedocs.io/',  # wiki英文地址
+    'wiki_cn_url': 'https://robosense-wiki-cn.readthedocs.io/zh-cn/latest/',  # wiki中文地址
+    'wiki_en_url': 'https://robosense-wiki-en.readthedocs.io/en/latest/',     # wiki英文地址
 }
