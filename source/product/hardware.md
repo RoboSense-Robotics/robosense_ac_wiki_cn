@@ -138,7 +138,7 @@
     <tr class="centered-table-text">
         <td colspan="2">SDK 环境容器 <sup>2</sup> </td>
         <td>
-            <a href="https://github.com/RoboSense-Robotics/ros2_ac_sdk_infra/tree/main/tools/cross_compilation">
+            <a href="https://github.com/RoboSense-Robotics/robosense_ac_ros2_sdk_infra/tree/main/tools/compilation_envirment">
                 AC X86 tool
             </a>
         </td>
