@@ -119,6 +119,8 @@
         <tr class="row-odd centered-table-text">
             <td>尺寸</td>
             <td>95mm*42.6mm*80mm</td>
+            <td></td>
+            <td></td>
         </tr>
     </tbody>
 </table> 
