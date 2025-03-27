@@ -117,8 +117,6 @@
             <td>dc</td>
         </tr>
         <tr class="row-odd centered-table-text">
-            <td>时间同步精度</td>
-            <td> <1ms </td>
             <td>尺寸</td>
             <td>95mm*42.6mm*80mm</td>
         </tr>
