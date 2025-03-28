@@ -20,7 +20,7 @@
             <td>●</td>
             <td>●</td>
             <td>○</td>
-            <td>○</td>
+            <td>●</td>
         </tr>
         <tr class="row-even centered-table-text">
             <td>传感器</td>
