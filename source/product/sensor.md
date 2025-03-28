@@ -125,4 +125,7 @@
     </tbody>
 </table> 
 
-[点击了解详情](https://www.robosense.ai/IncrementalComponents/AC1)
+[点击了解详情](https://www.robosense.ai/rslidar/AC1)
+
+
+[//]: # (<a href="https://www.robosense.ai/IncrementalComponents/AC1" class="rounded-button" target="_blank">了解更多</a>)
