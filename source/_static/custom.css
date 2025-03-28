@@ -35,6 +35,10 @@
   display: none;
 }
 
+#readthedocs-flyout {
+  display: none;
+}
+
 /* 面包屑样式调整 */
 .wy-breadcrumbs-translate {
   margin-right: 24px;
@@ -108,4 +112,23 @@
 
 .video-container iframe {
   border: none;
+}
+
+/* 定义按钮的样式 */
+.rounded-button {
+    background-color: #0096FF !important;               /* 设置按钮的背景颜色 */
+    color: whitesmoke !important;                            /* 设置按钮的文本颜色 */
+    font-size: 16px;                         /* 设置按钮的字体大小 */
+    padding: 10px 20px;                      /* 设置按钮的内边距 */
+    border: none;                            /* 设置按钮的边框样式 */
+    border-radius: 10px;                     /* 设置按钮的圆角 */
+    cursor: pointer;                         /* 设置按钮的鼠标指针样式 */
+    transition: background-color 0.3s ease;  /* 设置按钮的过渡效果 */
+    text-decoration: none;                   /* 移除超链接的默认下划线 */
+    display: inline-block;                   /* 设置超链接的显示方式为块级元素 */
+}
+
+/* 鼠标悬停时的样式 */
+.rounded-button:hover {
+    background-color: #89CFF0 !important;  /* 鼠标悬停时改变背景颜色 */
 }
