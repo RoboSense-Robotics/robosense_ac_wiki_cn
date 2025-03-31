@@ -41,4 +41,4 @@ Welcome to RoboSense !
     :maxdepth: 0
     :caption: FAQ
 
-    FAQ.rst
+    FAQ/FAQ.md
