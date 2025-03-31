@@ -6,7 +6,9 @@
 
 为大幅降低开发门槛，提高开发效率，使开发人员能够专注于高价值的任务和功能优化，Active Camera 配备了 AI-Ready 生态，提供了包括驱动程序、标定、数据融合、SLAM 和高阶多模态感知算法等基础工作和高级工具，协助开发者实现通用、高效和优雅的解决方案，打造行为更智能、功能更丰富的机器人。  
 
-其规格参数如下表所示：  
+<a href="https://www.robosense.ai/rslidar/AC1" class="rounded-button" target="_blank">了解更多</a>
+
+### 规格参数
 
 <table class="docutils align-default" style="width: 100%; table-layout: fixed;">
     <colgroup>
@@ -125,4 +127,18 @@
     </tbody>
 </table> 
 
-<a href="https://www.robosense.ai/rslidar/AC1" class="rounded-button" target="_blank">了解更多</a>
+### 坐标系
+
+在实际应用中，需要用到 AC 中各个传感器的数据，这里将各个传感器的坐标系命名如下：
+
+- 激光传感器的坐标系命名为 $O_L-X_LY_LZ_L$ ，
+- 相机传感器的坐标系命名为 $O_c-X_CY_CZ_C$ ，
+- IMU 传感器的坐标系命名为 $O_I-X_IY_IZ_I$ ，
+- AC 的坐标系 $O-XYZ$ 定义为激光坐标系 $O_L-X_LY_LZ_L$ 。
+
+各个坐标系具体关系如下图所示：
+![图片alt](../image/coordinate_system.jpg)  
+
+- 激光坐标系原点 $O_L$ 在 AC 坐标系 $O-XYZ$ 上的坐标为 $(0,0,0)$（单位：mm）。  
+- 相机坐标系原点 $O_C$ 在 AC 坐标系 $O-XYZ$ 上的坐标为 $(4.3,0,-26.9)$（单位：mm）。  
+- IMU 坐标系原点 $O_I$ 在 AC 坐标系 $O-XYZ$ 上的坐标为 $(-10.6,-9.9,15.5)$（单位：mm）。  
