@@ -6,8 +6,6 @@
 
 为大幅降低开发门槛，提高开发效率，使开发人员能够专注于高价值的任务和功能优化，Active Camera 配备了 AI-Ready 生态，提供了包括驱动程序、标定、数据融合、SLAM 和高阶多模态感知算法等基础工作和高级工具，协助开发者实现通用、高效和优雅的解决方案，打造行为更智能、功能更丰富的机器人。  
 
-<a href="https://www.robosense.ai/rslidar/AC1" class="rounded-button" target="_blank">了解更多</a>
-
 ### 规格参数
 
 <table class="docutils align-default" style="width: 100%; table-layout: fixed;">
@@ -142,3 +140,5 @@
 - 激光坐标系原点 $O_L$ 在 AC 坐标系 $O-XYZ$ 上的坐标为 $(0,0,0)$（单位：mm）。  
 - 相机坐标系原点 $O_C$ 在 AC 坐标系 $O-XYZ$ 上的坐标为 $(4.3,0,-26.9)$（单位：mm）。  
 - IMU 坐标系原点 $O_I$ 在 AC 坐标系 $O-XYZ$ 上的坐标为 $(-10.6,-9.9,15.5)$（单位：mm）。  
+
+<a href="https://www.robosense.ai/rslidar/AC1" class="rounded-button" target="_blank">了解更多</a>
