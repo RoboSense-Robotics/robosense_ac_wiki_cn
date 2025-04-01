@@ -72,7 +72,7 @@
             <td>CIS输出格式</td>
             <td>NV12, RGB24</td>
             <td>垂直视场角</td>
-            <td>79°</td>
+            <td>78°</td>
         </tr>
         <tr class="row-odd centered-table-text">
             <td>帧率</td>
@@ -87,13 +87,13 @@
             <td>自由度</td>
             <td>6轴数据输出</td>
             <td>陀螺仪</td>
-            <td>±500dps</td>
+            <td>±2000dps</td>
         </tr>
         <tr class="row-even centered-table-text">
             <td>加速度计</td>
-            <td>±4g</td>
+            <td>±16g</td>
             <td>数据频率</td>
-            <td>500Hz（可调）</td>
+            <td>200Hz（可调）</td>
         </tr>
         <tr class="row-odd">
             <th class="head" colspan=4>整机部分</th>
@@ -102,13 +102,19 @@
             <td>形式</td>
             <td>标准探头模组</td>
             <td>功耗</td>
-            <td>14W（典型值）</td>
+            <td>12.6W（典型值）</td>
         </tr>
         <tr class="row-odd centered-table-text">
             <td>工作温度</td>
-            <td>-20°C~ +60°C</td>
+            <td>-20°C ~ +60°C</td>
+            <td>储存温度</td>
+            <td>-20°C ~ +70°C</td>
+        </tr>
+        <tr class="row-odd centered-table-text">
             <td>防护等级</td>
             <td>IP54</td>
+            <td>重量</td>
+            <td>400g ± 10%</td>
         </tr>
         <tr class="row-even centered-table-text">
             <td>数据接口</td>
