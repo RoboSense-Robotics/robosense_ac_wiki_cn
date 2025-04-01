@@ -38,6 +38,20 @@ Active Camera 在出厂时已经完成了相机到雷达的标定，以下提供
 视频数据：[AC1 Camera to Lidar Calibration data](https://cdn.robosense.cn/AC_wiki/camera_lidar_calib.zip)  
 详细代码：[AC1 Camera to Lidar Calibration code](https://github.com/RoboSense-Robotics/robosense_calibration_extrinsic)
 
+## 相机到IMU的标定
+Active Camera 在出厂时已经完成了相机到IMU的标定，以下提供的方法供开发者在有需要时，重新标定使用。
+
+本模块提供相机-IMU标定工具，复用相机内参标定靶板，在不同角度下对相机进行靶板位姿估计，结合IMU的运动数据，采用手眼标定的方法进行相机-IMU标定，以提供其他模块所需要相机-IMU外参。
+
+标定时请确保靶板处于图像 FOV 之内，并尽量保持 AC1 稳定，避免因为传感器抖动引入标定误差。
+
+<div style="margin-bottom: 24px; position:relative; width:100%; padding-top: 56.25%;" class="video-container">
+    <iframe src="https://cdn.robosense.cn/AC_wiki/camera2imu_calib.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+</div>
+
+视频数据：[AC1 Camera to IMU Calibration data](https://cdn.robosense.cn/AC_wiki/camera_imu_calib.zip)  
+详细代码：[AC1 Camera to IMU Calibration code](https://github.com/RoboSense-Robotics/robosense_ac_calibration)
+
 ## AC1 传感器到移动轮式平台外参标定
 本模块提供 AC1-移动轮式平台外参标定（角度标定）。本模块需提前录制两段数据：
 - 一段沿着直线匀速行驶的数据
@@ -47,3 +61,17 @@ Active Camera 在出厂时已经完成了相机到雷达的标定，以下提供
 
 视频数据：[AC1 to Wheel Platform Calibration data](https://cdn.robosense.cn/AC_wiki/calibration_extrinsic.zip)  
 详细代码：[AC1 to Wheel Platform Calibration code](https://github.com/RoboSense-Robotics/robosense_calibration_extrinsic)
+
+## AC1 传感器到机械臂外参标定
+本模块提供 AC1-机械臂外参标定（AC1固定于机械臂末端）。
+
+结合机械臂的末端姿态与点云配准的结果，采用手眼标定的方法进行AC1-机械臂外参标定。
+
+标定时需控制机械臂沿不同方向进行运动，完成标定后程序输出 AC1到机械臂末端的外参。
+
+<div style="margin-bottom: 24px; position:relative; width:100%; padding-top: 56.25%;" class="video-container">
+    <iframe src="https://cdn.robosense.cn/AC_wiki/sensor_to_mechanical_arm.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+</div>
+
+视频数据：[AC1 to Robotic Arm Calibration data](https://cdn.robosense.cn/AC_wiki/sensor_to_arm_calib.zip)  
+详细代码：[AC1 to Robotic Arm Calibration code](https://github.com/RoboSense-Robotics/robosense_calibration_extrinsic)
