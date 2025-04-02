@@ -136,19 +136,27 @@
         <td>○</td>
     </tr>
     <tr class="centered-table-text">
-        <td colspan="2">SDK 环境容器 <sup>2</sup> </td>
+        <td colspan="2">系统镜像/SDK容器 <sup>2</sup> </td>
         <td>
             <a href="https://github.com/RoboSense-Robotics/robosense_ac_ros2_sdk_infra/tree/main/tools/compilation_envirment">
-                AC X86 tool
+                SDK容器
+            </a>
+        </td>
+        <td>
+            <a href="https://github.com/RoboSense-Robotics/robosense_ac_ros2_sdk_infra/blob/main/tools/system_image/Radxa_Image_Readme_CN.md">
+                系统镜像
             </a>
         </td>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>
+            <a href="https://github.com/RoboSense-Robotics/robosense_ac_ros2_sdk_infra/blob/main/tools/system_image/Orin_Nano_Image_Readme_CN.md">
+                系统镜像
+            </a>
+        </td>
         <td>-</td>
     </tr>
 </table>
 
 <sup>1</sup> ● 和 ○ 分别代表支持（实心圆）和不支持（空心圆）。
 
-<sup>2</sup> 用于管理 Active Camera SDK 的跨平台编译和本地编译环境的 Docker 容器。包含了容器管理、镜像管理以及自动化环境设置等功能。
+<sup>2</sup> 针对Active Camera SDK不同平台提供的容器与系统镜像，方便快捷部署SDK，其中SDK容器，提供了跨平台编译和本地编译环境的 Docker 容器，包含容器管理、镜像管理以及自动化环境设置等功能；以及系统镜像，预安装ros2 humble版本与Active Camera SDK三方依赖。
