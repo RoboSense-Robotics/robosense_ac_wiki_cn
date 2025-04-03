@@ -159,4 +159,4 @@
 
 <sup>1</sup> ● 和 ○ 分别代表支持（实心圆）和不支持（空心圆）。
 
-<sup>2</sup> 针对Active Camera SDK不同平台提供的容器与系统镜像，方便快捷部署SDK，其中SDK容器，提供了跨平台编译和本地编译环境的 Docker 容器，包含容器管理、镜像管理以及自动化环境设置等功能；以及系统镜像，预安装ros2 humble版本与Active Camera SDK三方依赖。
+<sup>2</sup> Active Camera SDK在不同平台提供容器与系统镜像，其中SDK容器，提供跨平台编译和本地编译环境的 Docker 容器，包括容器管理、镜像管理以及自动化环境设置等功能；而系统镜像，则预安装了ros2 humble与SDK的三方依赖。
