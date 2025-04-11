@@ -1,6 +1,7 @@
 {%- extends "!layout.html" %}
 {% block extrahead %}
   <link rel="shortcut icon" href="{{ pathto('_static/favicon.ico', 1) }}"/>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <!-- {{ super() }}
   {% if display_github %}
     {% if github_version %}

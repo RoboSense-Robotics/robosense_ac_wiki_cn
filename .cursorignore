@@ -1,0 +1,10 @@
+build/
+.git/
+.idea/
+LICENSE.txt
+make.bat
+.venv/
+.vscode/
+*.jpg
+*.PNG
+*.png
