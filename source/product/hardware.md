@@ -5,11 +5,12 @@
 
 <table class="docutils align-default">
     <tr class="centered-table-text">
-        <td style="font-weight: bold;" colspan="2">计算平台</td>
+        <td style="font-weight: bold;" colspan="2">计算平台名称</td>
         <td style="font-weight: bold;">通用 X86 架构计算机</td>
         <td style="font-weight: bold;">Radxa ROCK5B+</td>
         <td style="font-weight: bold;">OrangePi 5 Ultra</td>
         <td style="font-weight: bold;">NVIDIA Jetson Orin Nano Super</td>
+        <td style="font-weight: bold;">NVIDIA Jetson AGX Orin</td>
         <td style="font-weight: bold;">D-Robotics RDK X5</td>
     </tr>
     <tr class="centered-table-text">
@@ -18,6 +19,7 @@
         <td>Rockchip RK3588</td>
         <td>Rockchip RK3588</td>
         <td>Jetson Orin Nano 8GB module</td>
+        <td>Jetson Orin</td>
         <td>Sunrise 5</td>
     </tr>
     <tr class="centered-table-text">
@@ -26,6 +28,7 @@
         <td>8 核 64 位处理器<br> 4 个 Cortex-A76@2.4GHz<br> 4 个 Cortex-A55@1.8GHz</td>
         <td>8 核 64 位处理器<br> 4 个 Cortex-A76@2.4GHz<br> 4 个 Cortex-A55@1.8GHz</td>
         <td>6 个 Cortex-A78@2.4GHz</td>
+        <td>12 核 Cortex-A78AE@2.2GHz</td>
         <td>8 个 Cortex-A55@1.5GHz</td>
     </tr>
     <tr class="centered-table-text">
@@ -34,6 +37,7 @@
         <td>16 GB LPDDR5</td>
         <td>16 GB LPDDR5</td>
         <td>8 GB LPDDR5</td>
+        <td>64 GB LPDDR5</td>
         <td>8 GB LPDDR4</td>
     </tr>
     <tr class="centered-table-text">
@@ -42,6 +46,7 @@
         <td>6 TOPS@INT8</td>
         <td>6 TOPS@INT8</td>
         <td>67 TOPS@INT8</td>
+        <td>275 TOPS@INT8</td>
         <td>10 TOPS@INT8</td>
     </tr>
     <tr class="centered-table-text">
@@ -52,60 +57,68 @@
         <td>●</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
-        <td>○</td>
+        <td>●</td>
+        <td>●</td>
+        <td>●</td>
     </tr>
     <tr class="centered-table-text">
         <td>采集</td>
         <td>●</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
-        <td>○</td>
+        <td>●</td>
+        <td>●</td>
+        <td>●</td>
     </tr>
     <tr class="centered-table-text">
         <td>监控</td>
         <td>●</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
-        <td>○</td>
+        <td>●</td>
+        <td>●</td>
+        <td>●</td>
     </tr>
     <tr class="centered-table-text">
         <td>标定</td>
         <td>●</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
-        <td>○</td>
+        <td>●</td>
+        <td>●</td>
+        <td>●</td>
     </tr>
     <tr class="centered-table-text">
         <td>点云与视觉融合</td>
         <td>●</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
-        <td>○</td>
+        <td>●</td>
+        <td>●</td>
+        <td>●</td>
     </tr>
     <tr class="centered-table-text">
         <td>定位</td>
         <td>●</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
-        <td>○</td>
+        <td>●</td>
+        <td>●</td>
+        <td>●</td>
     </tr>
     <tr class="centered-table-text">
         <td>slam</td>
         <td>●</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
-        <td>○</td>
+        <td>●</td>
+        <td>●</td>
+        <td>●</td>
     </tr>
     <tr class="centered-table-text">
         <td>3D 高斯溅射</td>
         <td>●</td>
+        <td>○</td>
         <td>○</td>
         <td>○</td>
         <td>○</td>
@@ -116,7 +129,8 @@
         <td>●</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
+        <td>●</td>
         <td>○</td>
     </tr>
     <tr class="centered-table-text">
@@ -124,16 +138,18 @@
         <td>●</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
-        <td>○</td>
+        <td>●</td>
+        <td>●</td>
+        <td>●</td>
     </tr>
     <tr class="centered-table-text">
         <td>语义分割</td>
         <td>●</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
-        <td>○</td>
+        <td>●</td>
+        <td>●</td>
+        <td>●</td>
     </tr>
     <tr class="centered-table-text">
         <td colspan="2">系统镜像/SDK容器 <sup>2</sup> </td>
@@ -144,16 +160,21 @@
         </td>
         <td>
             <a href="https://github.com/RoboSense-Robotics/robosense_ac_ros2_sdk_infra/blob/main/tools/system_image/Radxa_Image_Readme_CN.md">
-                系统镜像
+                系统镜像安装说明
             </a>
         </td>
         <td>-</td>
         <td>
             <a href="https://github.com/RoboSense-Robotics/robosense_ac_ros2_sdk_infra/blob/main/tools/system_image/Orin_Nano_Image_Readme_CN.md">
-                系统镜像
+                系统镜像安装说明
             </a>
         </td>
         <td>-</td>
+        <td>
+            <a href="https://github.com/RoboSense-Robotics/robosense_ac_ros2_sdk_infra/blob/main/tools/system_image/RDK_X5_Image_Readme_CN.md">
+                系统镜像安装说明
+            </a>
+        </td>
     </tr>
 </table>
 
