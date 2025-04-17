@@ -344,7 +344,11 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // 事件监听器
-    chatBubble.addEventListener('click', toggleChat);
+    chatBubble.addEventListener('click', (e) => {
+        console.log('Chat bubble clicked');
+        e.stopPropagation();  // 阻止事件冒泡
+        toggleChat();
+    });
 
     resetButton.addEventListener('click', resetConversation);
 

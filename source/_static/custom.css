@@ -144,9 +144,11 @@ readthedocs-flyout {
     color: white;
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    z-index: 1000;
+    z-index: 9999;  /* 提高 z-index */
     transition: all 0.3s ease;
     background: url('icon/chat.svg') no-repeat center;
+    pointer-events: auto !important;  /* 确保元素可以接收点击事件 */
+    opacity: 1 !important;  /* 确保元素可见 */
 }
 
 .dify-chat-bubble:hover {
