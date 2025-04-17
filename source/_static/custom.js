@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Dify 聊天机器人功能
     // 配置参数
     const difyConfig = {
-        apiUrl: 'https://10.40.55.89/v1/chat-messages',
+        apiUrl: 'https://susu-ai.xyz/v1/chat-messages',
         apiKey: 'app-wzKGRIEWbGcUVmDIfz4WNCqT',
         chatTitle: 'RoboSense wiki 智能助手',
         placeholder: '请输入您的问题...',
