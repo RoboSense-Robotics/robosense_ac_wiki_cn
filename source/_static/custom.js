@@ -279,9 +279,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 throw new Error('API请求失败');
             }
 
-            // 移除typing指示器
-            messagesContainer.removeChild(typingIndicator);
-
             // 创建一个新的机器人消息容器
             const botMessageDiv = addMessage('', false);
             const botMessageContent = botMessageDiv.querySelector('.dify-message-content');
@@ -290,6 +287,9 @@ document.addEventListener('DOMContentLoaded', function() {
             const reader = response.body.getReader();
             const decoder = new TextDecoder();
             let botResponse = '';
+
+            // 移除typing指示器
+            messagesContainer.removeChild(typingIndicator);
 
             while (true) {
                 const { done, value } = await reader.read();
