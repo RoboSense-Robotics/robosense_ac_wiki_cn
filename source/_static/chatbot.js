@@ -11,31 +11,31 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // 创建聊天气泡
     const chatBubble = document.createElement('div');
-    chatBubble.className = 'dify-chat-bubble';
+    chatBubble.className = 'chat-bubble';
     document.body.appendChild(chatBubble);
 
     // 创建聊天容器
     const chatContainer = document.createElement('div');
-    chatContainer.className = 'dify-chat-container';
+    chatContainer.className = 'chat-container';
     chatContainer.innerHTML = `
-        <div class="dify-chat-header">
-            <div class="dify-chat-title">${chatConfig.chatTitle}</div>
-            <button class="dify-chat-reset" title="${chatConfig.resetButtonText}"></button>
+        <div class="chat-header">
+            <div class="chat-title">${chatConfig.chatTitle}</div>
+            <button class="chat-reset" title="${chatConfig.resetButtonText}"></button>
         </div>
-        <div class="dify-chat-messages"></div>
-        <div class="dify-chat-input-container">
-            <input type="text" class="dify-chat-input" placeholder="${chatConfig.placeholder}">
-            <button class="dify-chat-send" title="${chatConfig.sendButtonText}"></button>
+        <div class="chat-messages"></div>
+        <div class="chat-input-container">
+            <input type="text" class="chat-input" placeholder="${chatConfig.placeholder}">
+            <button class="chat-send" title="${chatConfig.sendButtonText}"></button>
         </div>
-        <div class="dify-chat-disclaimer">所有内容均由AI生成，仅供参考</div>
+        <div class="chat-disclaimer">所有内容均由AI生成，仅供参考</div>
     `;
     document.body.appendChild(chatContainer);
 
     // 获取DOM元素
-    const messagesContainer = chatContainer.querySelector('.dify-chat-messages');
-    const chatInput = chatContainer.querySelector('.dify-chat-input');
-    const sendButton = chatContainer.querySelector('.dify-chat-send');
-    const resetButton = chatContainer.querySelector('.dify-chat-reset');
+    const messagesContainer = chatContainer.querySelector('.chat-messages');
+    const chatInput = chatContainer.querySelector('.chat-input');
+    const sendButton = chatContainer.querySelector('.chat-send');
+    const resetButton = chatContainer.querySelector('.chat-reset');
 
     // 会话ID和对话历史
     let sessionId = generateSessionId();
@@ -107,10 +107,10 @@ document.addEventListener('DOMContentLoaded', function() {
     // 添加消息到聊天窗口
     function addMessage(content, isUser = false) {
         const messageDiv = document.createElement('div');
-        messageDiv.className = `dify-message ${isUser ? 'user' : ''}`;
+        messageDiv.className = `message ${isUser ? 'user' : ''}`;
         messageDiv.innerHTML = `
-                <div class="dify-message-avatar ${isUser ? 'user' : 'bot'}"></div>
-                <div class="dify-message-content">${content}</div>
+                <div class="message-avatar ${isUser ? 'user' : 'bot'}"></div>
+                <div class="message-content">${content}</div>
             `;
 
         messagesContainer.appendChild(messageDiv);
@@ -121,13 +121,13 @@ document.addEventListener('DOMContentLoaded', function() {
     // 显示正在输入指示器
     function showTypingIndicator() {
         const typingDiv = document.createElement('div');
-        typingDiv.className = 'dify-message';
+        typingDiv.className = 'message';
         typingDiv.innerHTML = `
-            <div class="dify-message-avatar bot"></div>
-            <div class="dify-typing">
-                <div class="dify-typing-dot"></div>
-                <div class="dify-typing-dot"></div>
-                <div class="dify-typing-dot"></div>
+            <div class="message-avatar bot"></div>
+            <div class="typing">
+                <div class="typing-dot"></div>
+                <div class="typing-dot"></div>
+                <div class="typing-dot"></div>
             </div>
         `;
         messagesContainer.appendChild(typingDiv);
@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // 创建一个新的机器人消息容器
             const botMessageDiv = addMessage('', false);
-            const botMessageContent = botMessageDiv.querySelector('.dify-message-content');
+            const botMessageContent = botMessageDiv.querySelector('.message-content');
 
             // 处理流式响应
             const reader = response.body.getReader();
