@@ -99,9 +99,4 @@ document.addEventListener('DOMContentLoaded', function() {
             img.style.cursor = 'grab';
         }
     });
-
-    // 导入Dify聊天机器人模块
-    const scriptElement = document.createElement('script');
-    scriptElement.src = '_static/chatbot.js';
-    document.head.appendChild(scriptElement);
 });
