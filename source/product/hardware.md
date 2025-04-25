@@ -121,7 +121,7 @@
         <td>○</td>
         <td>○</td>
         <td>○</td>
-        <td>○</td>
+        <td>●</td>
         <td>○</td>
     </tr>
     <tr class="centered-table-text">

@@ -12,22 +12,24 @@
             <td>Radxa ROCK5B+</td>
             <td>OrangePi 5 Ultra</td>
             <td>NVIDIA Jetson Orin Nano Super</td>
+            <td>NVIDIA Jetson AGX Orin</td>
             <td>D-Robotics RDK X5</td>
         </tr>
         <tr class="row-odd centered-table-text">
             <td>●</td>
-            <td>○</td>
-            <td>○</td>
-            <td>○</td>
+            <td>●</td>
+            <td>●</td>
+            <td>●</td>
+            <td>●</td>
             <td>○</td>
         </tr>
         <tr class="row-even centered-table-text">
             <td>模型大小</td>
-            <td colspan="5">1360M</td>
+            <td colspan="6">1360M</td>
         </tr>
         <tr class="row-odd centered-table-text">
             <td>传感器</td>
-            <td colspan="5">AC1</td>
+            <td colspan="6">AC1</td>
         </tr>
     </tbody>
 </table>
@@ -52,22 +54,24 @@
             <td>Radxa ROCK5B+</td>
             <td>OrangePi 5 Ultra</td>
             <td>NVIDIA Jetson Orin Nano Super</td>
+            <td>NVIDIA Jetson AGX Orin</td>
             <td>D-Robotics RDK X5</td>
         </tr>
         <tr class="row-odd centered-table-text">
             <td>●</td>
             <td>●</td>
             <td>●</td>
-            <td>○</td>
+            <td>●</td>
+            <td>●</td>
             <td>○</td>
         </tr>
         <tr class="row-even centered-table-text">
             <td>模型大小</td>
-            <td colspan="5">100M</td>
+            <td colspan="6">100M</td>
         </tr>
         <tr class="row-odd centered-table-text">
             <td>传感器</td>
-            <td colspan="5">AC1</td>
+            <td colspan="6">AC1</td>
         </tr>
     </tbody>
 </table>
