@@ -20,6 +20,7 @@ Welcome to RoboSense !
     ac_studio/driver.md
     ac_studio/tools.md
     ac_studio/algorithms.md
+    ac_studio/firmware.md
 
 .. toctree::
     :maxdepth: 0
