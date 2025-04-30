@@ -178,21 +178,59 @@ document.addEventListener('DOMContentLoaded', function() {
             // 处理流式响应
             const reader = response.body.getReader();
             const decoder = new TextDecoder();
-            let botResponse = '';
+            let buffer = '';
+            let answer = '';
+            let url = '';
 
             // 移除typing指示器
             messagesContainer.removeChild(typingIndicator);
 
+            const options = {
+                sanitize: true
+            };
+
+            function processBuffer() {
+                // 检查是否包含 URL
+                const urlIndex = buffer.lastIndexOf('url:');
+                if (urlIndex !== -1) {
+                    // 提取 URL 部分
+                    url = buffer.substring(urlIndex + 4).trim();
+                    // 剩余部分作为 answer
+                    answer = buffer.substring(0, urlIndex).replace(/answer: /g, '');
+                    buffer = ''; // 清空缓冲区
+                } else {
+                    // 如果没有 URL，全部内容作为 answer
+                    answer = buffer.replace(/answer: /g, '');
+                }
+
+                const formattedResponse = formatMathText(answer);
+                botMessageContent.innerHTML = marked.parse ? marked.parse(formattedResponse, options) : marked(formattedResponse);
+
+                // 如果有 URL 则添加链接
+                if (url) {
+                    if (botMessageContent.innerHTML) {
+                        botMessageContent.innerHTML += '<br>';
+                    }
+                    botMessageContent.innerHTML += `<a href="${url}" target="_blank">📄 查看相关文档</a>`;
+                }
+            }
+
             while (true) {
                 const { done, value } = await reader.read();
-                if (done) break;
+                if (done) {
+                    // 处理最后的缓冲区内容
+                    if (buffer) {
+                        processBuffer();
+                    }
+                    break;
+                }
 
-                // 解码并处理返回的数据
+                // 解码并添加到缓冲区
                 const chunk = decoder.decode(value);
-                botResponse += chunk;
-                const formattedResponse = formatMathText(botResponse);
-                // 使用 marked 库将 Markdown 转换为 HTML
-                botMessageContent.innerHTML = marked.parse ? marked.parse(formattedResponse) : marked(formattedResponse);
+                buffer += chunk;
+                
+                processBuffer();
+                
                 messagesContainer.scrollTop = messagesContainer.scrollHeight;
             }
 
@@ -245,4 +283,4 @@ document.addEventListener('DOMContentLoaded', function() {
             chatContainer.classList.remove('show');
         }
     });
-}); 
+});
