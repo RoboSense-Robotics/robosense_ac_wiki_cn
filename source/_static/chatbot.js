@@ -55,11 +55,11 @@ document.addEventListener('DOMContentLoaded', function() {
             const welcomeMessage = `
                 你好，我是速腾聚创的速速Susu，一个专业的AI文档助手。我可以帮你查找文档内容相关的信息。如果你有任何关于文档的问题，欢迎提问！<br>
                 你可以这样问：<br>
-                    • <a href="#" class="suggested-question">介绍一下Active Camera</a><br>
+                    • <a href="#" class="suggested-question">什么是Active Camera</a><br>
                     • <a href="#" class="suggested-question">Active Camera支持的硬件平台有哪些</a><br>
                     • <a href="#" class="suggested-question">Active Camera的规格参数有哪些</a><br>
-                    • <a href="#" class="suggested-question">介绍一下AC Studio</a><br>
-                    • <a href="#" class="suggested-question">AC Studio开源的算法有哪些</a>
+                    • <a href="#" class="suggested-question">什么是AC Studio</a><br>
+                    • <a href="#" class="suggested-question">详细介绍一下AC Studio的开源算法</a>
             `;
             const welcomeDiv = addMessage(welcomeMessage, false);
 
@@ -87,11 +87,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 const welcomeMessage = `
                     你好，我是速腾聚创的速速Susu，一个专业的AI文档助手。我可以帮你查找文档内容相关的信息。如果你有任何关于文档的问题，欢迎提问！<br>
                     你可以这样问：<br>
-                    • <a href="#" class="suggested-question">介绍一下Active Camera</a><br>
+                    • <a href="#" class="suggested-question">什么是Active Camera</a><br>
                     • <a href="#" class="suggested-question">Active Camera支持的硬件平台有哪些</a><br>
                     • <a href="#" class="suggested-question">Active Camera的规格参数有哪些</a><br>
-                    • <a href="#" class="suggested-question">介绍一下AC Studio</a><br>
-                    • <a href="#" class="suggested-question">AC Studio开源的算法有哪些</a>
+                    • <a href="#" class="suggested-question">什么是AC Studio</a><br>
+                    • <a href="#" class="suggested-question">详细介绍一下AC Studio的开源算法</a>
                 `;
                 const welcomeDiv = addMessage(welcomeMessage, false);
 
