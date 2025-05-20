@@ -45,6 +45,31 @@ document.addEventListener('DOMContentLoaded', function() {
         return 'session_' + Math.random().toString(36).substring(2, 15);
     }
 
+    // 添加开场白消息
+    function addWelcomeMessage() {
+        const welcomeMessage = `
+            你好，我是速腾聚创的速速Susu，一个专业的AI文档助手。我可以帮你查找文档内容相关的信息。如果你有任何关于文档的问题，欢迎提问！<br>
+            你可以这样问：
+            <div class="suggested-questions">
+                <a href="#" class="suggested-question">什么是Active Camera</a>
+                <a href="#" class="suggested-question">Active Camera支持的硬件平台有哪些</a>
+                <a href="#" class="suggested-question">Active Camera的规格参数有哪些</a>
+                <a href="#" class="suggested-question">什么是AC Studio</a>
+                <a href="#" class="suggested-question">详细介绍一下AC Studio的开源算法</a>
+            </div>
+        `;
+        const welcomeDiv = addMessage(welcomeMessage, false);
+
+        // 添加点击事件监听器
+        welcomeDiv.querySelectorAll('.suggested-question').forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                chatInput.value = this.textContent;
+                handleSend();
+            });
+        });
+    }
+
     // 重置对话
     function resetConversation() {
         messagesContainer.innerHTML = '';
@@ -52,25 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // 添加开场白
         if (messagesContainer.children.length === 0) {
-            const welcomeMessage = `
-                你好，我是速腾聚创的速速Susu，一个专业的AI文档助手。我可以帮你查找文档内容相关的信息。如果你有任何关于文档的问题，欢迎提问！<br>
-                你可以这样问：<br>
-                    • <a href="#" class="suggested-question">什么是Active Camera</a><br>
-                    • <a href="#" class="suggested-question">Active Camera支持的硬件平台有哪些</a><br>
-                    • <a href="#" class="suggested-question">Active Camera的规格参数有哪些</a><br>
-                    • <a href="#" class="suggested-question">什么是AC Studio</a><br>
-                    • <a href="#" class="suggested-question">详细介绍一下AC Studio的开源算法</a>
-            `;
-            const welcomeDiv = addMessage(welcomeMessage, false);
-
-            // 添加点击事件监听器
-            welcomeDiv.querySelectorAll('.suggested-question').forEach(link => {
-                link.addEventListener('click', function (e) {
-                    e.preventDefault();
-                    chatInput.value = this.textContent;
-                    handleSend();
-                });
-            });
+            addWelcomeMessage();
         }
         chatInput.focus();
     }
@@ -84,25 +91,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (chatContainer.classList.contains('show')) {
             // 添加开场白
             if (messagesContainer.children.length === 0) {
-                const welcomeMessage = `
-                    你好，我是速腾聚创的速速Susu，一个专业的AI文档助手。我可以帮你查找文档内容相关的信息。如果你有任何关于文档的问题，欢迎提问！<br>
-                    你可以这样问：<br>
-                    • <a href="#" class="suggested-question">什么是Active Camera</a><br>
-                    • <a href="#" class="suggested-question">Active Camera支持的硬件平台有哪些</a><br>
-                    • <a href="#" class="suggested-question">Active Camera的规格参数有哪些</a><br>
-                    • <a href="#" class="suggested-question">什么是AC Studio</a><br>
-                    • <a href="#" class="suggested-question">详细介绍一下AC Studio的开源算法</a>
-                `;
-                const welcomeDiv = addMessage(welcomeMessage, false);
-
-                // 添加点击事件监听器
-                welcomeDiv.querySelectorAll('.suggested-question').forEach(link => {
-                    link.addEventListener('click', function (e) {
-                        e.preventDefault();
-                        chatInput.value = this.textContent;
-                        handleSend();
-                    });
-                });
+                addWelcomeMessage();
             }
             chatInput.focus();
         }

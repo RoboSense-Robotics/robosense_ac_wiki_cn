@@ -210,3 +210,28 @@
         bottom: 80px; /* 距离底部80像素 */
     }
 }
+
+.suggested-questions {
+    display: flex;   /* 使用弹性布局 */
+    flex-wrap: wrap; /* 允许子元素换行 */
+    gap: 10px;       /* 子元素之间的间距为10像素 */
+    margin: 10px 0;  /* 上下外边距为10像素，左右外边距为0 */
+}
+
+.suggested-question {
+    display: inline-block;                   /* 设置为内联块级元素 */
+    padding: 8px 16px;                       /* 内边距：上下8像素，左右16像素 */
+    background: #f5f5f5;                     /* 背景颜色为浅灰色 */
+    color: #e72420;                          /* 文字颜色为红色 */
+    border-radius: 18px;                     /* 边框圆角为18像素 */
+    border: 1px solid #e72420;               /* 边框为1像素宽的红色实线 */
+    font-size: 14px;                         /* 字体大小为14像素 */
+    text-decoration: none;                   /* 去掉文本的下划线（通常用于链接） */
+    cursor: pointer;                         /* 鼠标悬停时显示为手型光标，表示可点击 */
+    transition: background 0.2s, color 0.2s; /* 背景颜色和文字颜色的变化有0.2秒的过渡动画 */
+}
+
+.suggested-question:hover {
+    background: #e72420;
+    color: #fff;
+}
