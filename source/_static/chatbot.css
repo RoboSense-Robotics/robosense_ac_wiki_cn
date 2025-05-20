@@ -1,0 +1,212 @@
+/* 右下角聊天气泡按钮样式 */
+.chat-bubble {
+    position: fixed;                                   /* 固定定位，元素会固定在浏览器窗口的指定位置 */
+    bottom: 20px;                                      /* 距离浏览器窗口底部20像素 */
+    right: 20px;                                       /* 距离浏览器窗口右侧20像素 */
+    width: 60px;                                       /* 宽度为60像素 */
+    height: 60px;                                      /* 高度为60像素 */
+    border-radius: 50%;                                /* 边框圆角为50%，使元素呈现圆形 */
+    color: white;                                      /* 文字颜色为白色 */
+    cursor: pointer;                                   /* 鼠标悬停时显示为手型光标，表示可点击 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);          /* 添加阴影，水平偏移0像素，垂直偏移4像素，模糊半径8像素，颜色为黑色透明度20% */
+    z-index: 9999;                                     /* 层级为9999，确保该元素在其他元素之上 */
+    transition: all 0.3s ease;                         /* 所有属性的过渡动画持续时间为0.3秒，过渡效果为缓和 */
+    background: url('icon/chat.svg') no-repeat center; /* 背景图片为`icon/chat.svg`，不重复，居中显示 */
+    pointer-events: auto !important;                   /* 确保元素可以接收点击事件 */
+    opacity: 1 !important;                             /* 确保元素完全可见 */
+}
+
+.chat-bubble:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.chat-container {
+    position: fixed;                            /* 定位方式为固定定位，元素会固定在浏览器窗口的指定位置 */
+    bottom: 90px;                               /* 距离浏览器窗口底部90像素 */
+    right: 20px;                                /* 距离浏览器窗口右侧20像素 */
+    width: 480px;                               /* 宽度为480像素 */
+    height: 500px;                              /* 高度为500像素 */
+    background-color: white;                    /* 背景颜色为白色 */
+    border-radius: 12px;                        /* 边框圆角为12像素 */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* 添加阴影，水平偏移0像素，垂直偏移4像素，模糊半径12像素，颜色为黑色透明度15% */
+    display: flex;                              /* 使用Flexbox布局 */
+    flex-direction: column;                     /* Flexbox布局方向为垂直方向 */
+    z-index: 1000;                              /* 层级为1000，确保该元素在其他元素之上 */
+    overflow: hidden;                           /* 隐藏超出容器的内容 */
+    visibility: hidden;                         /* 默认不可见 */
+    opacity: 0;                                 /* 默认透明度为0 */
+    transform: translateY(20px);                /* 初始状态向下偏移20像素 */
+    transition: all 0.3s ease;                  /* 所有属性的过渡动画持续时间为0.3秒，过渡效果为缓和 */
+}
+
+/* 当添加 .show 类时 */
+.chat-container.show {
+    visibility: visible;      /* 元素变为可见 */
+    opacity: 1;               /* 透明度变为1 */
+    transform: translateY(0); /* 偏移量变为0，回到原始位置 */
+}
+
+.chat-header {
+    background-color: #e72420;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* 重置按钮的样式 */
+.chat-reset {
+    background: url('icon/reset.svg') no-repeat center center;
+    background-size: 20px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+    text-indent: -9999px; /* 隐藏文字 */
+    overflow: hidden;
+}
+
+.chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.message {
+    display: flex;
+    gap: 10px;
+    max-width: 85%;
+}
+
+.message.user {
+    align-self: flex-end;
+    flex-direction: row-reverse;
+}
+
+.message-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+.message-avatar.user {
+    background-image: url('icon/user.svg');
+}
+
+.message-avatar.bot {
+    background-image: url('icon/bot.svg');
+}
+
+.message-content {
+    background-color: #f0f0f0;
+    padding: 10px 15px;
+    border-radius: 18px;
+    font-size: 14px;
+}
+
+.message.user .message-content {
+    background-color: #e72420;
+    color: white;
+}
+
+.chat-input-container {
+    padding: 15px 15px 0; /* 顶部和左右内边距为15px，底部内边距为0 */
+    border-top: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    position: relative; /* 添加相对定位 */
+}
+
+.chat-input {
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 25px;          /* 增大圆角半径 */
+    padding: 10px 45px 10px 15px; /* 右侧留出按钮空间 */
+    font-size: 14px;
+    outline: none;
+    box-shadow: none;
+}
+
+.chat-input:focus {
+    border-color: #e72420;
+}
+
+.chat-send {
+    background: url('icon/send.svg') no-repeat center center;
+    background-size: 20px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+    text-indent: -9999px;
+    overflow: hidden;
+    position: absolute; /* 改为绝对定位 */
+    right: 25px; /* 调整位置 */
+    top: 60%;
+    transform: translateY(-40%);
+}
+
+.chat-disclaimer {
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+}
+
+.typing-dot {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    background-color: #777;
+    border-radius: 50%;
+    opacity: 0.7;
+    animation: typing 1.4s infinite ease-in-out both;
+}
+
+.typing-dot:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.typing-dot:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.typing-dot:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes typing {
+    0%, 80%, 100% {
+        transform: scale(0.6);
+    }
+    40% {
+        transform: scale(1);
+    }
+}
+
+/* 禁用状态 */
+.chat-input.disabled {
+    background-color: #f5f5f5;
+    cursor: not-allowed;
+}
+
+/* 响应式设计：当屏幕宽度小于等于960像素时 */
+@media screen and (max-width: 960px) {
+    .chat-container {
+        width: 90vw;  /* 宽度为视口宽度的90% */
+        height: 70vh; /* 高度为视口高度的70% */
+        bottom: 80px; /* 距离底部80像素 */
+    }
+}
