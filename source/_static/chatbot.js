@@ -276,4 +276,6 @@ document.addEventListener('DOMContentLoaded', function() {
             chatContainer.classList.remove('show');
         }
     });
+
+    var vConsole = new window.VConsole();
 });
