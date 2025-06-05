@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     // 配置参数
     const chatConfig = {
-        apiUrl: 'https://47.119.30.203/chat',
+        apiUrl: 'https://api.susu-ai.xyz:5443/chat',
         chatTitle: 'RoboSense wiki 智能助手',
         placeholder: '请输入您的问题...',
         sendButtonText: '发送',
