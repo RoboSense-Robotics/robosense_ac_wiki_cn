@@ -22,20 +22,12 @@ Welcome to RoboSense !
     ac_studio/firmware.md
 
 .. toctree::
-    :maxdepth: 0
-    :caption: RoboSense 数据集
-    :numbered:
-
-    .. data_set/target.md
-    .. data_set/identify.md
-
-.. toctree::
-    :maxdepth: 0
+    :maxdepth: 2
     :caption: 应用案例
     :numbered:
 
-    cases/humanoid_robot.md
-    cases/house_clean.md
+    cases/AC1.md
+    cases/AC2.md
 
 .. toctree::
     :maxdepth: 0
