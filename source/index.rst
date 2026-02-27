@@ -8,7 +8,6 @@ Welcome to RoboSense !
     :numbered:
 
     product/sensor.md
-    product/hardware.md
 
 .. toctree::
     :maxdepth: 2

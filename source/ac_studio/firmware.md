@@ -3,6 +3,8 @@
 RoboSense 将优化 Active Camera 产品的性能表现。  
 建议用户定期升级设备固件，使设备始终处于最佳运行状态。
 
+## AC1
+
 ```{toctree}
 :maxdepth: 2
 
@@ -14,3 +16,7 @@ firmware/download.md
 
 firmware/upgrade.md
 ```
+
+## AC2
+
+AC2 暂不支持用户自行升级，如有固件升级需求，请联系我们。
