@@ -73,5 +73,11 @@ algorithms/AC2/object_detection.md
 ```{toctree}
 :maxdepth: 2
 
+algorithms/AC2/skeleton.md
+```
+
+```{toctree}
+:maxdepth: 2
+
 algorithms/AC2/3d_reconstruction.md
 ```
