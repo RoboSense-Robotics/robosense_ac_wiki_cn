@@ -8,6 +8,4 @@
     <iframe src="https://cdn.robosense.cn/AC_wiki/AC2_Fusion.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
 </div>
 
-我们开放了示例中所用的代码。按照代码中的说明文档，开发者可接入自己的 AC2 设备，获得同样的效果。
-
 🚀 项目地址：[robosense_ac_postprocess](https://github.com/RoboSense-Robotics/robosense_ac_postprocess)
