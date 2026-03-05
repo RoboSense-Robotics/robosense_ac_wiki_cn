@@ -1,26 +1,11 @@
 # SLAM
-「方案一： 只放视频和代码，不放数据」
 
 本示例是一个融合 LiDAR、视觉和 IMU 等多传感器紧耦合里程计系统，基于 HKU-MARS 实验室开源的 VOXEL_SLAM 工程开发，针对 Active Camera 进行专门的适配和优化，加入了视觉约束，使得里程计能够实时输出 Active Camera 的姿态并生成带颜色信息的三维点云。开发者可参考此工程，在自有设备上快速搭建基于 AC2 的 SLAM 验证环境。
 
-以下视频展示了 AC2 早期工程样机在测试场景中的 SLAM 效果。
+下面视频展示了 AC2 早期工程样机在室内场景的 SLAM 效果。
 
-<Demo视频>
+<div style="margin-bottom: 24px; position:relative; width:100%; padding-top: 42.46%;" class="video-container">
+    <iframe src="https://cdn.robosense.cn/AC_wiki/AC2_SLAM.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+</div>
 
-> 🧪 **注意：关于当前画面质量的说明**  
-> 本演示基于 AC2 A0 样机 录制，核心目的是验证AC2数据应用于 SLAM 算法的可行性。
-视频中可能存在的图像色彩偏差、自动曝光延迟或点云局部精度问题，均属于早期固件的已知状态。我们的研发团队正在进行深度优化，最终量产表现将大幅提升。
-
-我们开放了 AC2的适配代码与默认配置文件，供具备算法背景的开发者在自己的 AC2 设备上进行联调。
-
-<代码仓库链接>
-
----
-
-「方案二： 不放视频，也不放代码」
-
-本示例是一个融合 LiDAR、视觉和 IMU 等多传感器紧耦合里程计系统，基于 HKU-MARS 实验室开源的 VOXEL_SLAM 工程开发，针对 Active Camera 进行专门的适配和优化，加入了视觉约束，使得里程计能够实时输出 Active Camera 的姿态并生成带颜色信息的三维点云。
-
-我们已开放了本示例的全部代码，请点击下方链接获取。已拥有AC2设备的开发者可参考此代码，在自有设备上快速搭建基于 AC2 的 SLAM能力，并在自己的环境中进行调参，以在特定环境中获得更稳定的效果。
-
-<代码仓库链接>
+🚀 项目地址：[Voxel-Odom](https://github.com/RoboSense-Robotics/Voxel-Odom)
