@@ -10,4 +10,4 @@ rs_driver 是 RoboSense 机器人传感器产品的驱动。
 对于使用ROS的开发者，我们开发了robosense_ac_driver，这是一个基于rs_driver的ROS wrapper工程，将来自于rs_driver的传感器消息通过ROS发出。
 同时，也可作为一个如何将rs_driver嵌入到其他C++工程中的示例。该工程AC1与AC2均可用，ROS1/ROS2均支持。
 
-详细代码：[AC Driver](https://github.com/RoboSense-Robotics/robosense_ac_driver/tree/main)
+详细代码：[robosense_ac_driver](https://github.com/RoboSense-Robotics/robosense_ac_driver/tree/main)
