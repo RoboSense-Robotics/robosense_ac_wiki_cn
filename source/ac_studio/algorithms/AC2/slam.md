@@ -8,4 +8,4 @@
     <iframe src="https://cdn.robosense.cn/AC_wiki/AC2_SLAM.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
 </div>
 
-🚀 项目地址：[Voxel-Odom](https://github.com/RoboSense-Robotics/Voxel-Odom)
+🚀 项目地址：[robosense_voxel_odom](https://github.com/RoboSense-Robotics/robosense_voxel_odom)
