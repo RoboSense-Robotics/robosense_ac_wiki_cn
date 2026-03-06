@@ -6,4 +6,6 @@
     <iframe src="https://cdn.robosense.cn/AC_wiki/AC2_Skeleton.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
 </div>
 
-🚀 项目地址：[robosense_skeleton_detection](https://github.com/RoboSense-Robotics/robosense_skeleton_detection/tree/main)
+示例中用到的代码可在下面链接中获得，
+
+🚀 代码链接：[robosense_skeleton_detection](https://github.com/RoboSense-Robotics/robosense_skeleton_detection/tree/main)

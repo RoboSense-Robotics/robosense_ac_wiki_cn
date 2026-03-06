@@ -8,4 +8,6 @@
     <iframe src="https://cdn.robosense.cn/AC_wiki/AC2_Reconstruction.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
 </div>
 
-🚀 项目地址：[3D Reconstruction](https://github.com/RoboSense-Robotics/robosense_ac_2dgs)
+本示例所用代码可从下列链接中获取,
+
+🚀 代码链接：[3D Reconstruction](https://github.com/RoboSense-Robotics/robosense_ac_2dgs)

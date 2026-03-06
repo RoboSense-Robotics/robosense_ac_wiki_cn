@@ -8,4 +8,6 @@
     <iframe src="https://cdn.robosense.cn/AC_wiki/AC2_SLAM.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
 </div>
 
-🚀 项目地址：[robosense_voxel_odom](https://github.com/RoboSense-Robotics/robosense_voxel_odom)
+我们开放了 AC2的适配代码与默认配置文件，供具备算法背景的开发者在自己的 AC2 设备上进行联调。
+
+🚀 代码链接：[robosense_voxel_odom](https://github.com/RoboSense-Robotics/robosense_voxel_odom)

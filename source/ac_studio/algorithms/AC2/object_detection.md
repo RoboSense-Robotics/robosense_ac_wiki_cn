@@ -6,4 +6,6 @@
     <iframe src="https://cdn.robosense.cn/AC_wiki/AC2_Segmentation.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
 </div>
 
-🚀 项目地址：[robosense_ac2_segmentation](https://github.com/RoboSense-Robotics/robosense_ac2_segmentation)
+我们开放了上述示例中所使用的代码，
+
+🚀 代码链接：[robosense_ac2_segmentation](https://github.com/RoboSense-Robotics/robosense_ac2_segmentation)
