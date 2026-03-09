@@ -34,7 +34,7 @@
             <td>激光波长</td>
             <td>940nm</td>
             <td>垂直视场角</td>
-            <td>60°</td>
+            <td>90°</td>
         </tr>
         <tr class="row-even centered-table-text">
             <td>激光安全等级</td>
@@ -44,14 +44,14 @@
         </tr>
         <tr class="row-odd centered-table-text">
             <td>测距能力</td>
-            <td>20m@10%</td>
+            <td>40m@10%</td>
             <td>垂直分辨率</td>
         </tr>
         <tr class="row-even centered-table-text">
             <td>盲区</td>
             <td>0.1m@90%</td>
             <td>精度（典型值）</td>
-            <td>±3cm@1σ（室内）<br>±5cm@1σ（室外）</td>
+            <td>±1 cm (0 ~ 5 m)<br>±3 cm (> 5 m)</td>
         </tr>
         <tr class="row-odd centered-table-text">
             <td>出点数</td>
@@ -124,7 +124,7 @@
         </tr>
         <tr class="row-odd centered-table-text">
             <td>尺寸</td>
-            <td>95mm*42.6mm*80mm</td>
+            <td>95mm*80mm*40mm（长*高*宽）</td>
             <td></td>
             <td></td>
         </tr>
